@@ -36,7 +36,7 @@ Elections BC's pages can't be read directly from another website's page, so the 
 
 ## The maps
 
-The district boundaries come from Elections BC's 2023 redistribution (the 93 districts used in 2024 and 2026), published in the BC Geographic Warehouse. Legal district boundaries run out into the ocean, so `scripts/build_geometry.py` clips each district to land before simplifying it. It tries GeoBC's terrestrial boundary of the province first; that file is only offered over FTP, which GitHub's servers couldn't reach, so the current map uses Natural Earth's 1:10m land polygons. Then it simplifies each district (about 1 km for the province view, about 40 m for the close-ups) and turning it into compact SVG paths. The page draws the maps with no mapping library. Boundaries only change after a redistribution, so this runs by hand (**Actions → Build geometry**).
+The district boundaries come from Elections BC's 2023 redistribution (the 93 districts used in 2024 and 2026), published in the BC Geographic Warehouse. Legal district boundaries run out into the ocean, so `scripts/build_geometry.py` clips each district to land before simplifying it. It tries GeoBC's terrestrial boundary of the province first; that file is only offered over FTP, which GitHub's servers couldn't reach, so the current map uses Natural Earth's 1:10m land polygons. Then it simplifies each district (about 1 km for the province view, about 40 m for the close-ups) and turns it into compact SVG paths. The page draws the maps with no mapping library. Boundaries only change after a redistribution, so this runs by hand (**Actions → Build geometry**).
 
 ## Data checks
 
