@@ -4,6 +4,8 @@ Live, interactive maps of British Columbia's October 24, 2026 provincial general
 
 **Live site:** https://fahadbgias.github.io/bc-election-2026-maps/
 
+![BC's 93 electoral districts, with close-ups of Metro Vancouver and Greater Victoria](preview.png)
+
 ## What it shows
 
 - A seat count by party, with the 47 seats needed for a majority marked, and each party's share of the vote.
