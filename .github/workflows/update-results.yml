@@ -1,0 +1,58 @@
+# Election night watcher: checks Elections BC's results every 2 minutes, commits the numbers
+# when the count moves, and republishes the site. One run keeps watching for up to about
+# five and a half hours; the schedule below starts a new run if none is going.
+
+name: Update results
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: How long to keep watching (minutes)
+        default: "330"
+
+permissions:
+  contents: write
+  actions: write   # to start the deploy workflow after each update
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch, commit and publish whenever the count moves
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MINUTES: ${{ github.event.inputs.minutes || '330' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          end=$(( $(date +%s) + MINUTES * 60 ))
+          while :; do
+            python scripts/fetch_results.py || echo "Fetch failed; trying again next round."
+            if ! git diff --quiet -- data || [ -n "$(git ls-files --others --exclude-standard data)" ]; then
+              git add data
+              git commit -q -m "Results update $(date -u +'%Y-%m-%d %H:%M UTC')"
+              if git pull -q --rebase origin main && git push -q origin HEAD:main; then
+                gh workflow run deploy.yml --ref main || echo "Could not start the deploy workflow."
+              fi
+            fi
+            if python -c "import json,sys; d=json.load(open('data/results.json')); sys.exit(0 if 'complete' in str((d.get('count') or {}).get('initial','')).lower() else 1)"; then
+              echo "Initial count complete. Stopping the watch."
+              break
+            fi
+            [ "$(date +%s)" -ge "$end" ] && break
+            sleep 120
+          done
