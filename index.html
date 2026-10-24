@@ -218,7 +218,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     <div class="notes">
       <div>
         <h3>Reading the map</h3>
-        <p>Each shape is one of BC's 93 provincial electoral districts, coloured by the party whose candidate is ahead there. A lighter shade means the lead is under 5 percentage points. Grey means no votes have been reported yet.</p>
+        <p>Each shape is one of BC's 93 provincial electoral districts, coloured by the party whose candidate is ahead there. A muted colour means the lead is under 5 percentage points. Grey means no votes have been reported yet.</p>
         <p>Map area is not population: the large northern and interior districts fill most of the provincial map, while Metro Vancouver and Greater Victoria hold most of the seats on a small share of the land.</p>
       </div>
       <div>
@@ -413,7 +413,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     var shown = {};
     Object.keys(G.names).forEach(function(c){ var x = race(c); if (x && !x.tied) shown[x.lead[1]] = 1; });
     Object.keys(shown).forEach(function(p){ add(colour(p), p + ' leads'); });
-    add('var(--ink-2)', 'Lighter shade: lead under 5 points', true);
+    add('var(--ink-2)', 'Muted colour: lead under 5 points', true);
     add('var(--none)', 'No results yet');
     function add(c, text, light){
       var d = document.createElement('div');

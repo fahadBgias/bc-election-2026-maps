@@ -9,7 +9,7 @@ Live, interactive maps of British Columbia's October 24, 2026 provincial general
 ## What it shows
 
 - A seat count by party, with the 47 seats needed for a majority marked, and each party's share of the vote.
-- Every district coloured by the party whose candidate is ahead. A lighter shade means the lead is under 5 points.
+- Every district coloured by the party whose candidate is ahead. A muted colour means the lead is under 5 points.
 - Metro Vancouver with the Fraser Valley, and Greater Victoria, drawn at their own scale so their smaller districts are visible next to the province map.
 - Select a district on any map, or in the lists, to see its candidates, votes, margin and how many ballot boxes have reported.
 - A list of the closest races and a scrolling list of all 93 districts.
