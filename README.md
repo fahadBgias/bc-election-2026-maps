@@ -9,8 +9,9 @@ Live, interactive maps of British Columbia's October 24, 2026 provincial general
 ## What it shows
 
 - A seat count by party, with the 47 seats needed for a majority marked, and each party's share of the vote.
-- Every district coloured by the party whose candidate is ahead. A muted colour means the lead is under 5 points.
+- Every district coloured by the party whose candidate is ahead. A lighter shade means the lead is under 5 points.
 - Metro Vancouver with the Fraser Valley, and Greater Victoria, drawn at their own scale so their smaller districts are visible next to the province map.
+- An equal-size hexagon map: one hexagon per district, since each elects one MLA, laid out to keep rough geography.
 - Select a district on any map, or in the lists, to see its candidates, votes, margin and how many ballot boxes have reported.
 - A list of the closest races and a scrolling list of all 93 districts.
 - The results are downloadable as a CSV: [`data/results.csv`](data/results.csv).
@@ -38,6 +39,8 @@ Elections BC's pages can't be read directly from another website's page, so the 
 
 The district boundaries come from Elections BC's 2023 redistribution (the 93 districts used in 2024 and 2026), published in the BC Geographic Warehouse. Legal district boundaries run out into the ocean, so `scripts/build_geometry.py` clips each district to land before simplifying it. It tries GeoBC's terrestrial boundary of the province first; that file is only offered over FTP, which GitHub's servers couldn't reach, so the current map uses Natural Earth's 1:10m land polygons. Then it simplifies each district (about 1 km for the province view, about 40 m for the close-ups) and turns it into compact SVG paths. The page draws the maps with no mapping library. Boundaries only change after a redistribution, so this runs by hand (**Actions → Build geometry**).
 
+The hexagon map comes from `scripts/build_tiles.py`. The north, the interior, Vancouver Island and Greater Victoria are placed by hand; the 51 districts of Metro Vancouver and the Fraser Valley are fitted into their block by an optimal assignment from their real positions, after a square-root transform that spreads out the dense core around Vancouver.
+
 ## Data checks
 
 - **Matching:** every district on Elections BC's page must match one of the 93 districts on the map.
@@ -52,7 +55,7 @@ python -m unittest discover tests        # tests use a saved copy of the 2024 re
 python -m http.server 8000               # then open http://localhost:8000
 ```
 
-Python 3.10+ with the standard library only. The exception is `scripts/build_geometry.py`, which needs `shapely` and `pyproj`.
+Python 3.10+ with the standard library only. The exceptions are `scripts/build_geometry.py`, which needs `shapely` and `pyproj`, and `scripts/build_tiles.py`, which needs `numpy` and `scipy`.
 
 ## Sources
 

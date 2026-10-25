@@ -77,11 +77,17 @@ table.parties td b{font-size:17px;font-weight:800}
 .sw{width:12px;height:12px;border-radius:3px;display:inline-block;flex:none}
 
 .maps{display:grid;grid-template-columns:minmax(0,1.16fr) minmax(0,1.71fr);gap:20px;align-items:end}
-.row2{display:grid;grid-template-columns:minmax(0,.89fr) minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.row2{display:grid;grid-template-columns:minmax(0,.89fr) minmax(0,1.5fr) minmax(0,1fr);grid-template-areas:"vic info side" "hex hex hex";gap:20px 20px;align-items:start}
+.m-vic{grid-area:vic} .row2 .info{grid-area:info} .row2 .side{grid-area:side} .m-hex{grid-area:hex}
+.hexwrap{display:grid;grid-template-columns:minmax(0,500px) minmax(0,1fr);gap:16px 36px;align-items:center}
+.hex .grp{fill:none;stroke:var(--ink);stroke-width:2px;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.hex .glab{font:600 4.6px var(--f-head);fill:var(--ink-2)}
+.hexnote{font-family:var(--f-body);font-size:15px;line-height:1.55;color:var(--ink-2);display:grid;gap:10px;max-width:46ch}
+.hexnote h3{font-family:var(--f-head);font-size:15px;font-weight:800;color:var(--ink)}
+.hexnote p{margin:0}
 .mlab{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 svg.map{width:100%;height:auto;display:block;overflow:visible}
 .map path{stroke:var(--surface);stroke-width:.6px;fill:var(--none);cursor:pointer}
-.map path.c{fill-opacity:.45}
 .map path:hover{stroke:var(--ink);stroke-width:1.2px}
 .map path.sel{stroke:var(--ink);stroke-width:2.2px}
 .map .frame{fill:none;stroke:var(--ink-2);stroke-width:1px;pointer-events:none}
@@ -137,8 +143,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
 
 @media (max-width:900px){
   .notes{grid-template-columns:minmax(0,1fr);gap:24px}
-  .row2{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}
-  .row2 .side{grid-column:1 / -1}
+  .row2{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);grid-template-areas:"vic info" "side side" "hex hex"}
   .lists{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:640px){
@@ -146,6 +151,8 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
   .dek{font-size:16.5px}
   .panel{padding:16px;gap:18px}
   .maps,.row2{grid-template-columns:minmax(0,1fr);gap:14px}
+  .row2{grid-template-areas:"vic" "info" "side" "hex"}
+  .hexwrap{grid-template-columns:minmax(0,1fr)}
   .row2 .m-vic{max-width:340px}
   table.parties th.hide,table.parties td.hide{display:none}
   .box .hb{display:none}
@@ -196,6 +203,14 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
           <select id="ed-select"><option value="">Choose from all 93</option></select>
         </label>
       </div>
+      <div class="m-hex"><div class="hexwrap">
+        <div><p class="mlab">Every district the same size</p><svg class="map hex" id="m-hex" role="img" aria-label="Hexagon map with one equal hexagon for each of the 93 districts"></svg></div>
+        <div class="hexnote">
+          <h3>One hexagon per district</h3>
+          <p>Each district elects one MLA, so this view gives every district the same space, however large it is on the ordinary map.</p>
+          <p>It keeps rough geography: the north at the top, Vancouver Island on the left, the Okanagan and the Kootenays on the right. Metro Vancouver with the Fraser Valley, and Greater Victoria, are outlined.</p>
+        </div>
+      </div></div>
     </div>
     <div class="lists">
       <div>
@@ -218,7 +233,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     <div class="notes">
       <div>
         <h3>Reading the map</h3>
-        <p>Each shape is one of BC's 93 provincial electoral districts, coloured by the party whose candidate is ahead there. A muted colour means the lead is under 5 percentage points. Grey means no votes have been reported yet.</p>
+        <p>Each shape is one of BC's 93 provincial electoral districts, coloured by the party whose candidate is ahead there. A lighter shade means the lead is under 5 percentage points. Grey means no votes have been reported yet.</p>
         <p>Map area is not population: the large northern and interior districts fill most of the provincial map, while Metro Vancouver and Greater Victoria hold most of the seats on a small share of the land.</p>
       </div>
       <div>
@@ -244,7 +259,8 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
 <script>
 (function(){
   var NS = 'http://www.w3.org/2000/svg', CHECK_EVERY_MS = 2 * 60 * 1000, POLLS_CLOSE = Date.parse('2026-10-25T03:00:00Z');
-  var G = null, R = null, sel = null, els = {}, colourOf = {};
+  var G = null, R = null, T = null, sel = null, els = {}, colourOf = {};
+  var IND = '#6b7684';
   var $ = function(id){ return document.getElementById(id); };
   var fmt = function(n){ return n.toLocaleString('en-CA'); };
   var timeFmt = new Intl.DateTimeFormat('en-CA', {timeZone: 'America/Vancouver', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
@@ -264,7 +280,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     (R.parties || []).slice().sort(function(a, b){ return b.votes - a.votes; }).forEach(function(p){
       var c = p.colour && !/^#?808080$/i.test(p.colour) ? p.colour : null;
       if (!c){
-        if (/independent|unaffiliated|^other$/i.test(p.name)) c = 'var(--ind)';
+        if (/independent|unaffiliated|^other$/i.test(p.name)) c = IND;
         else if (/\bndp\b/i.test(p.name)) c = '#ff6633';
         else if (/conservative/i.test(p.name)) c = '#004aad';
         else if (/green/i.test(p.name)) c = '#009a44';
@@ -274,7 +290,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     });
   }
   function colour(party){
-    if (!colourOf[party]) colourOf[party] = /independent|unaffiliated/i.test(party) ? 'var(--ind)' : PALETTE[Object.keys(colourOf).length % PALETTE.length];
+    if (!colourOf[party]) colourOf[party] = /independent|unaffiliated/i.test(party) ? IND : PALETTE[Object.keys(colourOf).length % PALETTE.length];
     return colourOf[party];
   }
 
@@ -320,13 +336,71 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
       }
     });
   }
+  // a lighter tint of a party colour (mixed with white), for leads under 5 points;
+  // mixing with white rather than fading keeps it lighter on a dark background too
+  function tint(hex){
+    var m = /^#?([0-9a-f]{6})$/i.exec(hex.length === 4 ? '#' + hex[1] + hex[1] + hex[2] + hex[2] + hex[3] + hex[3] : hex);
+    if (!m) return hex;
+    var n = parseInt(m[1], 16), mix = function(v){ return Math.round(v * 0.45 + 255 * 0.55); };
+    return 'rgb(' + mix(n >> 16) + ',' + mix((n >> 8) & 255) + ',' + mix(n & 255) + ')';
+  }
   function paint(){
     Object.keys(els).forEach(function(code){
-      var x = race(code), fill = 'var(--none)', cls = '';
-      if (x && !x.tied){ fill = colour(x.lead[1]); if (x.margin < 0.05) cls = 'c'; }
-      if (sel === code) cls += ' sel';
-      els[code].forEach(function(p){ p.style.fill = fill; p.setAttribute('class', cls.trim()); });
+      var x = race(code), fill = 'var(--none)';
+      if (x && !x.tied){ fill = colour(x.lead[1]); if (x.margin < 0.05) fill = tint(fill); }
+      els[code].forEach(function(p){ p.style.fill = fill; p.classList.toggle('sel', sel === code); });
     });
+  }
+
+  // ----- hexagon map: one equal hexagon per district -----
+  function drawHex(){
+    var svg = $('m-hex'), s = 10, w = Math.sqrt(3) * s, pos = {}, x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
+    svg.innerHTML = '';
+    Object.keys(T.cells).forEach(function(code){
+      var c = T.cells[code], x = w * (c[0] + (c[1] & 1 ? 0.5 : 0)), y = 1.5 * s * c[1];
+      pos[code] = [x, y]; x0 = Math.min(x0, x); x1 = Math.max(x1, x); y0 = Math.min(y0, y); y1 = Math.max(y1, y);
+    });
+    var corner = function(p, i){ var a = Math.PI / 180 * (60 * i - 30); return [p[0] + s * Math.cos(a), p[1] + s * Math.sin(a)]; };
+    var f = function(v){ return v.toFixed(1); };
+    Object.keys(pos).forEach(function(code){
+      var p = document.createElementNS(NS, 'path'), d = '';
+      for (var i = 0; i < 6; i++){ var c = corner(pos[code], i); d += (i ? 'L' : 'M') + f(c[0]) + ' ' + f(c[1]); }
+      p.setAttribute('d', d + 'Z');
+      var t = document.createElementNS(NS, 'title'); t.textContent = G.names[code]; p.appendChild(t);
+      p.addEventListener('click', function(){ pick(code); });
+      svg.appendChild(p);
+      (els[code] = els[code] || []).push(p);
+    });
+    // outline each group: edges between a member and a neighbour outside the group
+    var at = {}; Object.keys(T.cells).forEach(function(code){ at[T.cells[code].join(',')] = code; });
+    var nb = function(c, r){ return r & 1 ? [[1,0],[1,-1],[0,-1],[-1,0],[0,1],[1,1]].map(function(d){ return [c + d[0], r + d[1]]; })
+                                          : [[1,0],[0,-1],[-1,-1],[-1,0],[-1,1],[0,1]].map(function(d){ return [c + d[0], r + d[1]]; }); };
+    var labelY = y1 + 1.5 * s + 4;
+    Object.keys(T.groups).forEach(function(g){
+      var members = {}, d = '', xs = [];
+      T.groups[g].codes.forEach(function(code){ members[code] = 1; });
+      T.groups[g].codes.forEach(function(code){
+        var c = T.cells[code], here = pos[code];
+        nb(c[0], c[1]).forEach(function(n){
+          if (members[at[n.join(',')]]) return;
+          var there = [w * (n[0] + (n[1] & 1 ? 0.5 : 0)), 1.5 * s * n[1]];
+          var cs = [0, 1, 2, 3, 4, 5].map(function(i){ return corner(here, i); })
+            .sort(function(a, b){ return Math.hypot(a[0] - there[0], a[1] - there[1]) - Math.hypot(b[0] - there[0], b[1] - there[1]); }).slice(0, 2);
+          d += 'M' + f(cs[0][0]) + ' ' + f(cs[0][1]) + 'L' + f(cs[1][0]) + ' ' + f(cs[1][1]);
+        });
+        xs.push(here[0]);
+      });
+      var o = document.createElementNS(NS, 'path'); o.setAttribute('d', d); o.setAttribute('class', 'grp'); o.setAttribute('vector-effect', 'non-scaling-stroke'); svg.appendChild(o);
+      var lab = document.createElementNS(NS, 'text'), bottom = Math.max.apply(null, T.groups[g].codes.map(function(c){ return pos[c][1]; }));
+      var bx = T.groups[g].codes.filter(function(c){ return pos[c][1] === bottom; }).map(function(c){ return pos[c][0]; });
+      var left = Math.min.apply(null, T.groups[g].codes.map(function(c){ return pos[c][0]; }));
+      // Greater Victoria: label tucked under the group's left edge; the big block: centred below the map
+      lab.setAttribute('x', f(g === 'vic' ? left - w / 2 : bx.reduce(function(a, b){ return a + b; }, 0) / bx.length));
+      lab.setAttribute('y', f(g === 'vic' ? bottom + s + 6 : labelY));
+      lab.setAttribute('text-anchor', g === 'vic' ? 'start' : 'middle'); lab.setAttribute('class', 'glab'); lab.textContent = T.groups[g].label;
+      svg.appendChild(lab);
+    });
+    svg.setAttribute('viewBox', [f(x0 - w / 2 - 3), f(y0 - s - 3), f(x1 - x0 + w + 6), f(y1 - y0 + 2 * s + 6 + 10)].join(' '));
   }
 
   // ----- seats and parties -----
@@ -403,7 +477,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
   function pick(code){
     sel = code;
     Object.keys(els).forEach(function(c){ els[c].forEach(function(p){ p.classList.toggle('sel', c === code); if (c === code) p.parentNode.appendChild(p); }); });
-    ['m-pv', 'm-van', 'm-vic'].forEach(function(id){ var f = $(id).querySelectorAll('.frame'); f.forEach(function(r){ r.parentNode.appendChild(r); }); });
+    ['m-pv', 'm-van', 'm-vic', 'm-hex'].forEach(function(id){ var f = $(id).querySelectorAll('.frame,.grp,.glab'); f.forEach(function(r){ r.parentNode.appendChild(r); }); });
     $('ed-select').value = code;
     info();
   }
@@ -413,12 +487,13 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     var shown = {};
     Object.keys(G.names).forEach(function(c){ var x = race(c); if (x && !x.tied) shown[x.lead[1]] = 1; });
     Object.keys(shown).forEach(function(p){ add(colour(p), p + ' leads'); });
-    add('var(--ink-2)', 'Muted colour: lead under 5 points', true);
+    var first = Object.keys(shown)[0];
+    add(tint(first ? colour(first) : '#6b7684'), 'Lighter shade: lead under 5 points');
     add('var(--none)', 'No results yet');
-    function add(c, text, light){
+    function add(c, text){
       var d = document.createElement('div');
       d.innerHTML = '<span class="sw"></span><span></span>';
-      d.firstChild.style.background = c; if (light) d.firstChild.style.opacity = .45;
+      d.firstChild.style.background = c;
       d.lastChild.textContent = text; L.appendChild(d);
     }
   }
@@ -481,15 +556,15 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     }).catch(function(){ /* keep showing the last numbers */ });
   }
 
-  Promise.all([load('data/geometry.json'), load('data/results.json')]).then(function(x){
-    G = x[0]; R = x[1];
+  Promise.all([load('data/geometry.json'), load('data/results.json'), load('data/tiles.json')]).then(function(x){
+    G = x[0]; R = x[1]; T = x[2];
     $('status').hidden = true;
     var s = $('ed-select');
     Object.keys(G.names).sort(function(a, b){ return G.names[a].localeCompare(G.names[b]); }).forEach(function(c){
       var o = document.createElement('option'); o.value = c; o.textContent = G.names[c]; s.appendChild(o);
     });
     s.addEventListener('change', function(){ if (s.value) pick(s.value); });
-    drawMaps(); render();
+    drawMaps(); drawHex(); render();
     ['closebox', 'allbox'].forEach(function(id){ $(id).addEventListener('scroll', function(){ fade(id); }, {passive: true}); });
     window.addEventListener('resize', function(){ ['closebox', 'allbox'].forEach(fade); });
     setInterval(checkForUpdate, CHECK_EVERY_MS);
