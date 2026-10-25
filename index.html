@@ -77,12 +77,18 @@ table.parties td b{font-size:17px;font-weight:800}
 .sw{width:12px;height:12px;border-radius:3px;display:inline-block;flex:none}
 
 .maps{display:grid;grid-template-columns:minmax(0,1.16fr) minmax(0,1.71fr);gap:20px;align-items:end}
-.row2{display:grid;grid-template-columns:minmax(0,.89fr) minmax(0,1.5fr) minmax(0,1fr);grid-template-areas:"vic info side" "hex hex hex";gap:20px 20px;align-items:start}
-.m-vic{grid-area:vic} .row2 .info{grid-area:info} .row2 .side{grid-area:side} .m-hex{grid-area:hex}
-.hexwrap{display:grid;grid-template-columns:minmax(0,500px) minmax(0,1fr);gap:16px 36px;align-items:center}
+.row2{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.45fr) minmax(0,1fr);grid-template-areas:"vic hex side";gap:20px;align-items:start}
+.m-vic{grid-area:vic} .m-hex{grid-area:hex} .row2 .side{grid-area:side}
+.row3{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px;align-items:start}
+.lh{font-size:15px;font-weight:800;margin:0 0 8px}
+.dbox{background:var(--bg);border-radius:10px;padding:14px 18px 16px;display:grid;gap:14px}
+.dbox .info{background:none;border-radius:0;padding:14px 0 0;border-top:1px solid var(--line);min-height:0}
+.dbox label.find{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.dbox label.find span{white-space:nowrap}
+.dbox select{flex:1 1 220px;width:auto;min-width:0}
 .hex .grp{fill:none;stroke:var(--ink);stroke-width:2px;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
 .hex .glab{font:600 4.6px var(--f-head);fill:var(--ink-2)}
-.hexnote{font-family:var(--f-body);font-size:15px;line-height:1.55;color:var(--ink-2);display:grid;gap:10px;max-width:46ch}
+.hexnote{font-family:var(--f-body);font-size:14.5px;line-height:1.55;color:var(--ink-2);display:grid;gap:8px;padding-top:14px;border-top:1px solid var(--line)}
 .hexnote h3{font-family:var(--f-head);font-size:15px;font-weight:800;color:var(--ink)}
 .hexnote p{margin:0}
 .mlab{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
@@ -104,14 +110,12 @@ svg.map{width:100%;height:auto;display:block;overflow:visible}
 .crow .v{font-weight:600;white-space:nowrap;text-align:right}
 .crow .v small{display:block;font-weight:400;color:var(--muted)}
 .rep{font-size:13px;color:var(--muted);margin:0}
-.side{display:grid;gap:16px}
+.side{display:grid;gap:18px}
 .legend{display:grid;gap:8px;font-size:13px;color:var(--ink-2)}
 .legend div{display:flex;align-items:center;gap:8px}
 label.find{display:grid;gap:6px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 select{font:inherit;font-size:15px;letter-spacing:0;text-transform:none;font-weight:400;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%}
 
-.lists{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:20px;align-items:start}
-.lists h3{font-size:15px;font-weight:800;margin:0 0 8px}
 .box{max-height:330px;overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
 .box.more{-webkit-mask-image:linear-gradient(#000 80%,transparent);mask-image:linear-gradient(#000 80%,transparent)}
 .box table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.35;color:var(--ink-2)}
@@ -143,16 +147,15 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
 
 @media (max-width:900px){
   .notes{grid-template-columns:minmax(0,1fr);gap:24px}
-  .row2{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);grid-template-areas:"vic info" "side side" "hex hex"}
-  .lists{grid-template-columns:minmax(0,1fr)}
+  .row2{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);grid-template-areas:"vic hex" "side side"}
+  .row3{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:640px){
   .hdr{padding-block:28px 14px}
   .dek{font-size:16.5px}
   .panel{padding:16px;gap:18px}
   .maps,.row2{grid-template-columns:minmax(0,1fr);gap:14px}
-  .row2{grid-template-areas:"vic" "info" "side" "hex"}
-  .hexwrap{grid-template-columns:minmax(0,1fr)}
+  .row2{grid-template-areas:"vic" "hex" "side"}
   .row2 .m-vic{max-width:340px}
   table.parties th.hide,table.parties td.hide{display:none}
   .box .hb{display:none}
@@ -189,41 +192,44 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
   </section>
 
   <section class="panel" aria-labelledby="m-h" id="panel">
-    <div class="ph"><h2 id="m-h">Results by district</h2><p>Select a district on any map or in the lists below.</p></div>
+    <div class="ph"><h2 id="m-h">Results by district</h2><p>Select a district on any map, or find it below.</p></div>
     <div class="maps">
       <div><p class="mlab">British Columbia</p><svg class="map" id="m-pv" role="img" aria-label="Map of British Columbia's electoral districts"></svg></div>
       <div><p class="mlab">Metro Vancouver and the Fraser Valley</p><svg class="map" id="m-van" role="img" aria-label="Map of Metro Vancouver's electoral districts"></svg></div>
     </div>
     <div class="row2">
       <div class="m-vic"><p class="mlab">Greater Victoria</p><svg class="map" id="m-vic" role="img" aria-label="Map of Greater Victoria's electoral districts"></svg></div>
-      <div class="info" id="info" aria-live="polite"></div>
+      <div class="m-hex"><p class="mlab">Every district the same size</p><svg class="map hex" id="m-hex" role="img" aria-label="Hexagon map with one equal hexagon for each of the 93 districts"></svg></div>
       <div class="side">
         <div class="legend" id="legend"></div>
-        <label class="find" for="ed-select">Find a district
-          <select id="ed-select"><option value="">Choose from all 93</option></select>
-        </label>
-      </div>
-      <div class="m-hex"><div class="hexwrap">
-        <div><p class="mlab">Every district the same size</p><svg class="map hex" id="m-hex" role="img" aria-label="Hexagon map with one equal hexagon for each of the 93 districts"></svg></div>
         <div class="hexnote">
           <h3>One hexagon per district</h3>
-          <p>Each district elects one MLA, so this view gives every district the same space, however large it is on the ordinary map.</p>
+          <p>Each district elects one MLA, so the hexagon map gives every district the same space, however large it is on the ordinary map.</p>
           <p>It keeps rough geography: the north at the top, Vancouver Island on the left, the Okanagan and the Kootenays on the right. Metro Vancouver with the Fraser Valley, and Greater Victoria, are outlined.</p>
         </div>
-      </div></div>
+      </div>
     </div>
-    <div class="lists">
+    <div class="row3">
+      <div class="detail">
+        <h3 class="lh">District details</h3>
+        <div class="dbox">
+          <label class="find" for="ed-select"><span>Find a district</span>
+            <select id="ed-select"><option value="">Choose from all 93</option></select>
+          </label>
+          <div class="info" id="info" aria-live="polite"></div>
+        </div>
+      </div>
       <div>
-        <h3>Closest races</h3>
+        <h3 class="lh">Closest races</h3>
         <div class="box" id="closebox" tabindex="0" role="region" aria-label="Closest races, scrollable">
           <table class="tnum"><thead><tr><th scope="col">District</th><th scope="col">Leader</th><th scope="col">Margin</th></tr></thead><tbody id="close"></tbody></table>
         </div>
       </div>
-      <div>
-        <h3>All 93 districts</h3>
-        <div class="box" id="allbox" tabindex="0" role="region" aria-label="All districts, scrollable">
-          <table class="tnum"><thead><tr><th scope="col">District</th><th scope="col">Leader</th><th scope="col">Margin</th><th scope="col" class="hb">Ballot boxes</th></tr></thead><tbody id="all"></tbody></table>
-        </div>
+    </div>
+    <div>
+      <h3 class="lh">All 93 districts</h3>
+      <div class="box" id="allbox" tabindex="0" role="region" aria-label="All districts, scrollable">
+        <table class="tnum"><thead><tr><th scope="col">District</th><th scope="col">Leader</th><th scope="col">Margin</th><th scope="col" class="hb">Ballot boxes</th></tr></thead><tbody id="all"></tbody></table>
       </div>
     </div>
   </section>
