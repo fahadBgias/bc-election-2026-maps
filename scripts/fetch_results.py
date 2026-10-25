@@ -196,8 +196,9 @@ def parse_page(html: str) -> dict:
         nums = [c for c in cells if re.fullmatch(r"[\d,]+(\.\d+)?\s*%?", c)]
         if len(nums) < 3:
             continue
+        label = cells[0] if cells and cells[0] and not re.fullmatch(r"[\d,.%\s]*", cells[0]) else name
         parties.append({
-            "name": clean(name),
+            "name": clean(label),  # the page shows "Unaffiliated" for the row it tags as "Other"
             "colour": (row["colours"] or [None])[0],
             "leading": to_int(nums[-3]),
             "votes": to_int(nums[-2]),

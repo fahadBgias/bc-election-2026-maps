@@ -248,7 +248,7 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
   var $ = function(id){ return document.getElementById(id); };
   var fmt = function(n){ return n.toLocaleString('en-CA'); };
   var timeFmt = new Intl.DateTimeFormat('en-CA', {timeZone: 'America/Vancouver', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
-  var PALETTE = ['#7b4fb3', '#0f8b8d', '#b5651d', '#c2185b', '#4e7d2a', '#8e44ad'];
+  var PALETTE = ['#7b4fb3', '#0f8b8d', '#b5651d', '#c2185b', '#8e6c00', '#6d4c41'];  // no greens or blues, so minor parties can't be mistaken for the big three
 
   function load(path){
     return fetch(path + '?t=' + Date.now(), {cache: 'no-store'}).then(function(r){
