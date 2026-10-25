@@ -16,10 +16,10 @@ BDS,Boundary-Similkameen,Keith Pomeroy,OneBC,1495,6.85,,10,10,78,78
 BLS,Bulkley Valley-Stikine,Sharon Hartwell,Conservative Party,4333,51.04,yes,7,7,38,38
 BLS,Bulkley Valley-Stikine,Frankie Abel,BC NDP,3872,45.61,,7,7,38,38
 BLS,Bulkley Valley-Stikine,Ed Ewald,Christian Heritage Party of BC,284,3.35,,7,7,38,38
-BNC,Burnaby Centre,Joshua Domnich,Conservative Party,6676,47.64,yes,4,4,58,58
-BNC,Burnaby Centre,Anne Kang,BC NDP,5834,41.63,,4,4,58,58
-BNC,Burnaby Centre,Shila Taheri,BC Green Party,1150,8.21,,4,4,58,58
-BNC,Burnaby Centre,Vikas Gautam,CentreBC,354,2.53,,4,4,58,58
+BNC,Burnaby Centre,Joshua Domnich,Conservative Party,6735,47.33,yes,4,4,58,58
+BNC,Burnaby Centre,Anne Kang,BC NDP,5955,41.85,,4,4,58,58
+BNC,Burnaby Centre,Shila Taheri,BC Green Party,1169,8.22,,4,4,58,58
+BNC,Burnaby Centre,Vikas Gautam,CentreBC,370,2.6,,4,4,58,58
 BNE,Burnaby East,Rohini Reah Arora,BC NDP,7759,44.41,yes,6,6,66,66
 BNE,Burnaby East,Peter Si,Conservative Party,7518,43.03,,6,6,66,66
 BNE,Burnaby East,Javad Shushtarian,BC Green Party,1672,9.57,,6,6,66,66
@@ -114,12 +114,12 @@ KOR,Kootenay-Rockies,Paul Heywood,CentreBC,647,3.99,,7,7,57,57
 LAO,Ladysmith-Oceanside,Kris McNichol,Conservative Party,13418,44.56,yes,7,7,89,89
 LAO,Ladysmith-Oceanside,Stephanie Higginson,BC NDP,13329,44.26,,7,7,89,89
 LAO,Ladysmith-Oceanside,Charlene Smylie,BC Green Party,3365,11.17,,7,7,89,89
-LFH,Langford-Highlands,Ravi Parmar,BC NDP,8737,44.76,yes,4,4,71,74
-LFH,Langford-Highlands,Cindy Scott,Conservative Party,7588,38.87,,4,4,71,74
-LFH,Langford-Highlands,Christopher Moon,BC Green Party,2550,13.06,,4,4,71,74
-LFH,Langford-Highlands,Sean Flynn,CentreBC,430,2.2,,4,4,71,74
-LFH,Langford-Highlands,Christian McCay,Christian Heritage Party of BC,115,0.59,,4,4,71,74
-LFH,Langford-Highlands,Alex Thurlborn,Independent,99,0.51,,4,4,71,74
+LFH,Langford-Highlands,Ravi Parmar,BC NDP,8737,44.76,yes,4,4,74,74
+LFH,Langford-Highlands,Cindy Scott,Conservative Party,7588,38.87,,4,4,74,74
+LFH,Langford-Highlands,Christopher Moon,BC Green Party,2550,13.06,,4,4,74,74
+LFH,Langford-Highlands,Sean Flynn,CentreBC,430,2.2,,4,4,74,74
+LFH,Langford-Highlands,Christian McCay,Christian Heritage Party of BC,115,0.59,,4,4,74,74
+LFH,Langford-Highlands,Alex Thurlborn,Independent,99,0.51,,4,4,74,74
 LLA,Langley-Abbotsford,Harman Bhangu,Conservative Party,13474,61.38,yes,4,4,82,82
 LLA,Langley-Abbotsford,Erin Osborne,BC NDP,5199,23.69,,4,4,82,82
 LLA,Langley-Abbotsford,Melissa Snazell,BC Green Party,1874,8.54,,4,4,82,82
@@ -315,11 +315,11 @@ VNR,Vancouver-Renfrew,Adrian Dix,BC NDP,7708,54.64,yes,5,5,65,65
 VNR,Vancouver-Renfrew,Tom Ikonomou,Conservative Party,4409,31.26,,5,5,65,65
 VNR,Vancouver-Renfrew,Rebecca Haber,BC Green Party,1675,11.87,,5,5,65,65
 VNR,Vancouver-Renfrew,Lisa Prescott,CentreBC,314,2.23,,5,5,65,65
-VNS,Vancouver-South Granville,Lara Honrado,BC NDP,10427,47.43,yes,7,7,67,74
-VNS,Vancouver-South Granville,Lisa Phillips,Conservative Party,6489,29.52,,7,7,67,74
-VNS,Vancouver-South Granville,Maria J Cruz,BC Green Party,4151,18.88,,7,7,67,74
-VNS,Vancouver-South Granville,Colin Smith,CentreBC,735,3.34,,7,7,67,74
-VNS,Vancouver-South Granville,Salvatore Vetro,OneBC,182,0.83,,7,7,67,74
+VNS,Vancouver-South Granville,Lara Honrado,BC NDP,10427,47.43,yes,7,7,74,74
+VNS,Vancouver-South Granville,Lisa Phillips,Conservative Party,6489,29.52,,7,7,74,74
+VNS,Vancouver-South Granville,Maria J Cruz,BC Green Party,4151,18.88,,7,7,74,74
+VNS,Vancouver-South Granville,Colin Smith,CentreBC,735,3.34,,7,7,74,74
+VNS,Vancouver-South Granville,Salvatore Vetro,OneBC,182,0.83,,7,7,74,74
 VNT,Vancouver-Strathcona,Amanda Burrows,BC NDP,9484,55.09,yes,7,7,68,68
 VNT,Vancouver-Strathcona,Tanya Webking,BC Green Party,4985,28.96,,7,7,68,68
 VNT,Vancouver-Strathcona,Jordan Zheng McIntosh,Conservative Party,2531,14.7,,7,7,68,68
@@ -331,9 +331,9 @@ VNY,Vancouver-Yaletown,Margareta Dovgal,Conservative Party,6714,46.89,yes,6,6,63
 VNY,Vancouver-Yaletown,Terry Yung,BC NDP,5870,40.99,,6,6,63,63
 VNY,Vancouver-Yaletown,Priyan Samarakoone,BC Green Party,1253,8.75,,6,6,63,63
 VNY,Vancouver-Yaletown,Sam Chandola,CentreBC,482,3.37,,6,6,63,63
-VRL,Vernon-Lumby,Kevin Acton,Conservative Party,12702,50.82,yes,7,7,76,76
-VRL,Vernon-Lumby,Harwinder Sandhu,BC NDP,9448,37.8,,7,7,76,76
-VRL,Vernon-Lumby,Blair Visscher,BC Green Party,1724,6.9,,7,7,76,76
+VRL,Vernon-Lumby,Kevin Acton,Conservative Party,12702,50.81,yes,7,7,76,76
+VRL,Vernon-Lumby,Harwinder Sandhu,BC NDP,9448,37.79,,7,7,76,76
+VRL,Vernon-Lumby,Blair Visscher,BC Green Party,1729,6.92,,7,7,76,76
 VRL,Vernon-Lumby,Chantel Gibbs,OneBC,1120,4.48,,7,7,76,76
 VTB,Victoria-Beacon Hill,Grace Lore,BC NDP,10407,45.67,yes,7,7,74,74
 VTB,Victoria-Beacon Hill,Rajinder S. Sahota,BC Green Party,9189,40.32,,7,7,74,74
