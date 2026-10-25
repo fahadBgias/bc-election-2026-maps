@@ -49,7 +49,7 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(p["asOf"], "As of October 21, 2024 16:00 PST")
         self.assertEqual(p["updated"], "2024-10-21T23:00:00Z")  # Pacific local time
         self.assertEqual(p["count"]["initial"], "Complete")
-        self.assertEqual(p["totals"], {"valid": 2038787, "registered": 3550017})
+        self.assertEqual(p["totals"], {"valid": 2038787, "considered": None, "registered": 3550017})
         ndp = next(x for x in p["parties"] if x["name"] == "BC NDP")
         self.assertEqual((ndp["leading"], ndp["votes"], ndp["pct"], ndp["colour"]), (46, 909277, 44.6, "#ff6633"))
         am = p["districts"]["Abbotsford-Mission"]
