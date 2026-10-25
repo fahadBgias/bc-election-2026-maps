@@ -49,6 +49,7 @@ USER_AGENT = os.environ.get(
 )
 ROOT = Path(__file__).resolve().parent.parent
 PACIFIC = ZoneInfo("America/Vancouver")
+TOTAL_ROWS = {"total valid votes": "valid", "rejected ballots": "rejected", "total considered votes": "considered"}
 MONTHS = {m: i for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july", "august",
      "september", "october", "november", "december"], start=1)}
@@ -212,10 +213,17 @@ def parse_page(html: str) -> dict:
         d = districts.setdefault(name, {"name": name, "candidates": [], "total": None, "boxes": {}, "notes": []})
         cells = row["cells"]
         texts = [c["text"] for c in cells]
-        if len(cells) >= 6 and re.fullmatch(r"[\d.,]+\s*%", texts[-1] or "0%") and re.fullmatch(r"[\d,]+", texts[-2] or "0"):
-            party = texts[-3] or "Unaffiliated"
-            d["candidates"].append([texts[-4], party, to_int(texts[-2])])
-        elif len(cells) in (2, 3) and cells[0]["colspan"] >= 3:
+        if len(cells) >= 5 and re.fullmatch(r"[\d.,]+\s*%", texts[-1] or "0%") and re.fullmatch(r"[\d,]+", texts[-2] or "0"):
+            label = texts[-4].lower().rstrip("*").strip()
+            if label in TOTAL_ROWS:  # 2026 layout: district totals are rows of their own
+                if TOTAL_ROWS[label] == "valid":
+                    d["total"] = to_int(texts[-2])
+                else:
+                    d.setdefault("extra", {})[TOTAL_ROWS[label]] = to_int(texts[-2])
+            else:
+                party = texts[-3] or "Unaffiliated"
+                d["candidates"].append([texts[-4], party, to_int(texts[-2])])
+        elif len(cells) in (2, 3) and cells[0]["colspan"] >= 3:  # 2024 layout: one unlabeled total row
             d["total"] = to_int(texts[1])
         elif len(cells) == 1:
             line = texts[0]
@@ -235,7 +243,8 @@ def parse_page(html: str) -> dict:
         "updated": updated,
         "count": {"initial": clean(initial.group(1)) if initial else None,
                   "final": clean(final.group(1)) if final else None},
-        "totals": {"valid": fact("Total Valid Votes"), "registered": fact("Registered voters")},
+        "totals": {"valid": fact("Total Valid Votes"), "considered": fact("Total Votes Considered"),
+                   "registered": fact("Registered voters")},
         "parties": parties,
         "districts": districts,
     }

@@ -58,6 +58,21 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(am["boxes"], {"advance": [5, 5], "final": [16, 16]})
         self.assertEqual(am["notes"], [["Out-of-district ballots", "Complete"]])
 
+    def test_reads_the_2026_page_layout(self):
+        # 2026: no pin-button column, and each district's totals are separate labelled rows
+        p = fr.parse_page((ROOT / "tests" / "fixtures" / "enr_2026_sample.html").read_text(encoding="utf-8"))
+        self.assertEqual(p["updated"], "2026-10-25T03:13:00Z")
+        self.assertEqual(p["count"]["initial"], "In Progress")
+        self.assertEqual(p["totals"]["considered"], 4268)
+        am = p["districts"]["Abbotsford-Mission"]
+        self.assertEqual(len(am["candidates"]), 5)
+        self.assertNotIn("Total Valid Votes", [c[0] for c in am["candidates"]])
+        self.assertEqual(am["total"], 1080)
+        self.assertEqual(am["boxes"], {"advance": [2, 5], "final": [0, 75]})
+        self.assertEqual(p["districts"]["Abbotsford South"]["total"], 0)
+        onebc = next(x for x in p["parties"] if x["name"] == "OneBC")
+        self.assertEqual((onebc["leading"], onebc["votes"]), (1, 4))
+
     def test_names_match_despite_dash_and_case_differences(self):
         self.assertEqual(fr.norm("Abbotsford – Mission"), fr.norm("abbotsford-mission"))
         self.assertEqual(fr.norm("Saanich North and  the Islands"), fr.norm("Saanich North and the Islands"))
