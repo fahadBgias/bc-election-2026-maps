@@ -17,17 +17,17 @@
 <style>
 :root{
   --bg:#f3f5f7; --surface:#ffffff; --ink:#10161d; --ink-2:#475260; --muted:#6b7684; --line:#dde2e8;
-  --none:#cfd5dc; --ind:#5f6b7a; --chip:#e9edf2; --warn:#8a5a00;
+  --none:#cfd5dc; --ind:#5f6b7a; --chip:#e9edf2; --warn:#8a5a00; --vic:#b26b00;
   --f-head:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
   --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0d1116; --surface:#151b22; --ink:#edf1f5; --ink-2:#b3bcc7; --muted:#8a96a5; --line:#28313b;
-  --none:#3b4450; --ind:#8d99a8; --chip:#1e2630; --warn:#e0b252; color-scheme:dark}}
+  --none:#3b4450; --ind:#8d99a8; --chip:#1e2630; --warn:#e0b252; --vic:#f2b84b; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0d1116; --surface:#151b22; --ink:#edf1f5; --ink-2:#b3bcc7; --muted:#8a96a5; --line:#28313b;
-  --none:#3b4450; --ind:#8d99a8; --chip:#1e2630; --warn:#e0b252; color-scheme:dark}
+  --none:#3b4450; --ind:#8d99a8; --chip:#1e2630; --warn:#e0b252; --vic:#f2b84b; color-scheme:dark}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-head);font-size:15px;line-height:1.5;
@@ -68,6 +68,10 @@ h1{font-size:clamp(28px,3.6vw,42px);line-height:1.08;font-weight:800;letter-spac
 .majlab{position:relative;height:18px;font-size:12px;color:var(--ink-2)}
 .majlab span{position:absolute;left:calc(47 / 93 * 100%);transform:translateX(-50%);white-space:nowrap}
 table.parties{width:100%;border-collapse:collapse;font-size:14px}
+.pbox{overflow:auto}
+.pbox.more{-webkit-mask-image:linear-gradient(#000 calc(100% - 24px),transparent);mask-image:linear-gradient(#000 calc(100% - 24px),transparent)}
+.pbox thead th{position:sticky;top:0;z-index:1;background:var(--surface)}
+.pmore{margin:6px 0 0;font-size:12.5px;color:var(--muted)}
 table.parties th{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}
 table.parties th:first-child,table.parties td:first-child{text-align:left}
 table.parties td{padding:8px;border-bottom:1px solid var(--line);text-align:right;vertical-align:middle}
@@ -87,7 +91,12 @@ table.parties td b{font-size:17px;font-weight:800}
 .dbox label.find span{white-space:nowrap}
 .dbox select{flex:1 1 220px;width:auto;min-width:0}
 .hex .grp{fill:none;stroke:var(--ink);stroke-width:2px;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.hex .grp-vic{stroke:var(--vic);stroke-width:2.6px;stroke-dasharray:5 3;stroke-linecap:butt}
 .hex .glab{font:600 4.6px var(--f-head);fill:var(--ink-2)}
+.hex .glab.vic{fill:var(--vic)}
+.key{display:inline-block;width:22px;height:0;vertical-align:middle;margin:0 6px 0 2px;border-top:2px solid var(--ink)}
+.key.vic{border-top:2.6px dashed var(--vic)}
+.keys{display:grid;gap:4px;font-family:var(--f-head);font-size:13px;color:var(--ink-2)}
 .hexnote{font-family:var(--f-body);font-size:14.5px;line-height:1.55;color:var(--ink-2);display:grid;gap:8px;padding-top:14px;border-top:1px solid var(--line)}
 .hexnote h3{font-family:var(--f-head);font-size:15px;font-weight:800;color:var(--ink)}
 .hexnote p{margin:0}
@@ -185,10 +194,15 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
       <div class="seatbar" id="seatbar" role="img"></div>
       <div class="majlab" aria-hidden="true"><span>47 for a majority</span></div>
     </div>
-    <table class="parties tnum" id="parties">
-      <thead><tr><th scope="col">Party</th><th scope="col">Leading in</th><th scope="col" class="hide">Votes</th><th scope="col">Share of vote</th></tr></thead>
-      <tbody></tbody>
-    </table>
+    <div>
+      <div class="pbox" id="pbox" tabindex="0" role="region" aria-label="Parties, scrollable">
+        <table class="parties tnum" id="parties">
+          <thead><tr><th scope="col">Party</th><th scope="col">Leading in</th><th scope="col" class="hide">Votes</th><th scope="col">Share of vote</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="pmore" id="pmore" hidden></p>
+    </div>
   </section>
 
   <section class="panel" aria-labelledby="m-h" id="panel">
@@ -205,7 +219,8 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
         <div class="hexnote">
           <h3>One hexagon per district</h3>
           <p>Each district elects one MLA, so the hexagon map gives every district the same space, however large it is on the ordinary map.</p>
-          <p>It keeps rough geography: the north at the top, Vancouver Island on the left, the Okanagan and the Kootenays on the right. Metro Vancouver with the Fraser Valley, and Greater Victoria, are outlined.</p>
+          <p>It keeps rough geography: the north at the top, Vancouver Island on the left, the Okanagan and the Kootenays on the right.</p>
+          <div class="keys"><span><i class="key"></i>Metro Vancouver and the Fraser Valley</span><span><i class="key vic"></i>Greater Victoria</span></div>
         </div>
       </div>
     </div>
@@ -396,14 +411,14 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
         });
         xs.push(here[0]);
       });
-      var o = document.createElementNS(NS, 'path'); o.setAttribute('d', d); o.setAttribute('class', 'grp'); o.setAttribute('vector-effect', 'non-scaling-stroke'); svg.appendChild(o);
+      var o = document.createElementNS(NS, 'path'); o.setAttribute('d', d); o.setAttribute('class', 'grp grp-' + g); o.setAttribute('vector-effect', 'non-scaling-stroke'); svg.appendChild(o);
       var lab = document.createElementNS(NS, 'text'), bottom = Math.max.apply(null, T.groups[g].codes.map(function(c){ return pos[c][1]; }));
       var bx = T.groups[g].codes.filter(function(c){ return pos[c][1] === bottom; }).map(function(c){ return pos[c][0]; });
       var left = Math.min.apply(null, T.groups[g].codes.map(function(c){ return pos[c][0]; }));
       // Greater Victoria: label tucked under the group's left edge; the big block: centred below the map
       lab.setAttribute('x', f(g === 'vic' ? left - w / 2 : bx.reduce(function(a, b){ return a + b; }, 0) / bx.length));
       lab.setAttribute('y', f(g === 'vic' ? bottom + s + 6 : labelY));
-      lab.setAttribute('text-anchor', g === 'vic' ? 'start' : 'middle'); lab.setAttribute('class', 'glab'); lab.textContent = T.groups[g].label;
+      lab.setAttribute('text-anchor', g === 'vic' ? 'start' : 'middle'); lab.setAttribute('class', 'glab ' + g); lab.textContent = T.groups[g].label;
       svg.appendChild(lab);
     });
     svg.setAttribute('viewBox', [f(x0 - w / 2 - 3), f(y0 - s - 3), f(x1 - x0 + w + 6), f(y1 - y0 + 2 * s + 6 + 10)].join(' '));
@@ -443,6 +458,19 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
       tb.appendChild(tr);
     });
     if (!tb.children.length){ var tr = document.createElement('tr'); tr.innerHTML = '<td colspan="4">Results will appear here once polls close.</td>'; tb.appendChild(tr); }
+    fitParties();
+  }
+  // show the three leading parties; the rest scroll inside the box
+  function fitParties(){
+    var box = $('pbox'), rows = $('parties').tBodies[0].rows, more = $('pmore'), extra = rows.length - 3;
+    if (extra > 0){
+      var h = $('parties').tHead.offsetHeight;
+      for (var i = 0; i < 3; i++) h += rows[i].offsetHeight;
+      box.style.maxHeight = (h + 20) + 'px';  // three full rows plus a peek at the next one
+      more.textContent = 'Scroll the list for ' + extra + ' more ' + (extra === 1 ? 'party' : 'parties');
+      more.hidden = false;
+    } else { box.style.maxHeight = ''; more.hidden = true; }
+    fade('pbox');
   }
 
   // ----- selected district -----
@@ -571,8 +599,8 @@ footer a{color:var(--ink-2);text-underline-offset:2px}
     });
     s.addEventListener('change', function(){ if (s.value) pick(s.value); });
     drawMaps(); drawHex(); render();
-    ['closebox', 'allbox'].forEach(function(id){ $(id).addEventListener('scroll', function(){ fade(id); }, {passive: true}); });
-    window.addEventListener('resize', function(){ ['closebox', 'allbox'].forEach(fade); });
+    ['closebox', 'allbox', 'pbox'].forEach(function(id){ $(id).addEventListener('scroll', function(){ fade(id); }, {passive: true}); });
+    window.addEventListener('resize', function(){ ['closebox', 'allbox'].forEach(fade); fitParties(); });
     setInterval(checkForUpdate, CHECK_EVERY_MS);
     document.addEventListener('visibilitychange', checkForUpdate);
   }).catch(function(err){
