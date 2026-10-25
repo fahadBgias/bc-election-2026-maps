@@ -1,354 +1,354 @@
 district_code,district,candidate,party,votes,pct_of_district,leading,advance_boxes_reported,advance_boxes_total,final_day_boxes_reported,final_day_boxes_total
-ABM,Abbotsford-Mission,Darryl Kropp,Conservative Party,7785,55.56,yes,5,5,24,75
-ABM,Abbotsford-Mission,Pam Alexis,BC NDP,5186,37.01,,5,5,24,75
-ABM,Abbotsford-Mission,Lakhwinder Jhaj,CentreBC,470,3.35,,5,5,24,75
-ABM,Abbotsford-Mission,Virender Dass,OneBC,368,2.63,,5,5,24,75
-ABM,Abbotsford-Mission,Jeff Monds,Libertarian,203,1.45,,5,5,24,75
+ABM,Abbotsford-Mission,Darryl Kropp,Conservative Party,7994,55.79,yes,5,5,26,75
+ABM,Abbotsford-Mission,Pam Alexis,BC NDP,5277,36.82,,5,5,26,75
+ABM,Abbotsford-Mission,Lakhwinder Jhaj,CentreBC,476,3.32,,5,5,26,75
+ABM,Abbotsford-Mission,Virender Dass,OneBC,378,2.64,,5,5,26,75
+ABM,Abbotsford-Mission,Jeff Monds,Libertarian,205,1.43,,5,5,26,75
 ABS,Abbotsford South,Bruce Banman,Conservative Party,8398,63.07,yes,2,4,56,71
 ABS,Abbotsford South,Leah Ballantyne,BC NDP,4059,30.48,,2,4,56,71
 ABS,Abbotsford South,Robin Roy,OneBC,859,6.45,,2,4,56,71
-ABW,Abbotsford West,Korky Neufeld,Conservative Party,570,68.35,yes,0,5,6,70
-ABW,Abbotsford West,Jules C&#244;t&#233;,BC NDP,203,24.34,,0,5,6,70
-ABW,Abbotsford West,Gurpreet Chahal,CentreBC,61,7.31,,0,5,6,70
-BDS,Boundary-Similkameen,Donegal Wilson,Conservative Party,2782,52.7,yes,0,10,61,78
-BDS,Boundary-Similkameen,Roly Russell,BC NDP,2072,39.25,,0,10,61,78
-BDS,Boundary-Similkameen,Keith Pomeroy,OneBC,425,8.05,,0,10,61,78
-BLS,Bulkley Valley-Stikine,Frankie Abel,BC NDP,530,58.24,yes,0,7,10,38
-BLS,Bulkley Valley-Stikine,Sharon Hartwell,Conservative Party,348,38.24,,0,7,10,38
-BLS,Bulkley Valley-Stikine,Ed Ewald,Christian Heritage Party of BC,32,3.52,,0,7,10,38
-BNC,Burnaby Centre,Joshua Domnich,Conservative Party,2306,50.11,yes,1,4,15,58
-BNC,Burnaby Centre,Anne Kang,BC NDP,1810,39.33,,1,4,15,58
-BNC,Burnaby Centre,Shila Taheri,BC Green Party,355,7.71,,1,4,15,58
-BNC,Burnaby Centre,Vikas Gautam,CentreBC,131,2.85,,1,4,15,58
-BNE,Burnaby East,Rohini Reah Arora,BC NDP,1392,48.4,yes,1,6,26,66
-BNE,Burnaby East,Peter Si,Conservative Party,1102,38.32,,1,6,26,66
-BNE,Burnaby East,Javad Shushtarian,BC Green Party,285,9.91,,1,6,26,66
+ABW,Abbotsford West,Korky Neufeld,Conservative Party,757,67.23,yes,0,5,9,70
+ABW,Abbotsford West,Jules C&#244;t&#233;,BC NDP,278,24.69,,0,5,9,70
+ABW,Abbotsford West,Gurpreet Chahal,CentreBC,91,8.08,,0,5,9,70
+BDS,Boundary-Similkameen,Donegal Wilson,Conservative Party,2841,52.74,yes,0,10,62,78
+BDS,Boundary-Similkameen,Roly Russell,BC NDP,2114,39.24,,0,10,62,78
+BDS,Boundary-Similkameen,Keith Pomeroy,OneBC,432,8.02,,0,10,62,78
+BLS,Bulkley Valley-Stikine,Frankie Abel,BC NDP,575,56.71,yes,0,7,11,38
+BLS,Bulkley Valley-Stikine,Sharon Hartwell,Conservative Party,404,39.84,,0,7,11,38
+BLS,Bulkley Valley-Stikine,Ed Ewald,Christian Heritage Party of BC,35,3.45,,0,7,11,38
+BNC,Burnaby Centre,Joshua Domnich,Conservative Party,2327,49.89,yes,1,4,16,58
+BNC,Burnaby Centre,Anne Kang,BC NDP,1844,39.54,,1,4,16,58
+BNC,Burnaby Centre,Shila Taheri,BC Green Party,361,7.74,,1,4,16,58
+BNC,Burnaby Centre,Vikas Gautam,CentreBC,132,2.83,,1,4,16,58
+BNE,Burnaby East,Rohini Reah Arora,BC NDP,1393,48.4,yes,1,6,26,66
+BNE,Burnaby East,Peter Si,Conservative Party,1103,38.33,,1,6,26,66
+BNE,Burnaby East,Javad Shushtarian,BC Green Party,285,9.9,,1,6,26,66
 BNE,Burnaby East,De Ding,OneBC,97,3.37,,1,6,26,66
-BNN,Burnaby-New Westminster,Raj Chouhan,BC NDP,5084,56.32,yes,3,4,18,61
-BNN,Burnaby-New Westminster,Joe Latam,Conservative Party,3943,43.68,,3,4,18,61
-BNO,Burnaby North,Janet Routledge,BC NDP,1203,43.91,yes,0,9,26,63
-BNO,Burnaby North,Simon Chandler,Conservative Party,1198,43.72,,0,9,26,63
-BNO,Burnaby North,Maddy Kennedy-Parrott,BC Green Party,287,10.47,,0,9,26,63
-BNO,Burnaby North,Jenny Yamagata,OneBC,52,1.9,,0,9,26,63
-BNS,Burnaby South-Metrotown,Paul Choi,BC NDP,1826,44.74,yes,2,4,8,67
-BNS,Burnaby South-Metrotown,David Xie,Conservative Party,1769,43.35,,2,4,8,67
-BNS,Burnaby South-Metrotown,Bryan Fockler,BC Green Party,339,8.31,,2,4,8,67
-BNS,Burnaby South-Metrotown,Andrew Rose,OneBC,147,3.6,,2,4,8,67
-CBC,Cariboo-Chilcotin,Lorne Doerkson,Conservative Party,4777,76.67,yes,4,7,28,82
-CBC,Cariboo-Chilcotin,Kathryn Askew,BC NDP,1068,17.14,,4,7,28,82
-CBC,Cariboo-Chilcotin,Douglas Gook,BC Green Party,386,6.19,,4,7,28,82
-CHC,Chilliwack-Cultus Lake,A&#39;aliya Warbus,Conservative Party,7377,60.3,yes,5,8,45,77
-CHC,Chilliwack-Cultus Lake,Kelli Paddon,BC NDP,4857,39.7,,5,8,45,77
-CHN,Chilliwack North,Heather Maahs,Conservative Party,8438,60.04,yes,5,5,39,71
-CHN,Chilliwack North,Adila Shaukat,BC NDP,4551,32.38,,5,5,39,71
-CHN,Chilliwack North,Dan Grice,CentreBC,1064,7.57,,5,5,39,71
-CLR,Columbia River-Revelstoke,Scott McInnis,Conservative Party,5866,51.25,yes,5,7,39,62
-CLR,Columbia River-Revelstoke,Andrea Dunlop,BC NDP,4297,37.54,,5,7,39,62
-CLR,Columbia River-Revelstoke,Rana Nelson,BC Green Party,1282,11.2,,5,7,39,62
-CQB,Coquitlam-Burke Mountain,Ryan Peterson,Conservative Party,5713,51.8,yes,5,6,13,72
-CQB,Coquitlam-Burke Mountain,Jodie Wickens,BC NDP,4420,40.08,,5,6,13,72
-CQB,Coquitlam-Burke Mountain,Valerie Morrison,BC Green Party,644,5.84,,5,6,13,72
-CQB,Coquitlam-Burke Mountain,Kaden Mann,CentreBC,251,2.28,,5,6,13,72
-CQM,Coquitlam-Maillardville,Matt Liang,Conservative Party,2669,47.95,yes,0,5,43,71
-CQM,Coquitlam-Maillardville,Jennifer Blatherwick,BC NDP,2365,42.49,,0,5,43,71
-CQM,Coquitlam-Maillardville,Nicola Spurling,BC Green Party,532,9.56,,0,5,43,71
-CRC,Courtenay-Comox,Will Cole-Hamilton,BC NDP,1773,45.4,yes,0,5,35,90
-CRC,Courtenay-Comox,Brennan Day,Conservative Party,1633,41.82,,0,5,35,90
-CRC,Courtenay-Comox,Jay Van Oostdam,BC Green Party,402,10.29,,0,5,35,90
-CRC,Courtenay-Comox,Jason Cook,CentreBC,97,2.48,,0,5,35,90
-CWV,Cowichan Valley,Bert Chen,Conservative Party,964,44.2,yes,0,6,16,81
-CWV,Cowichan Valley,Debra Toporowski,BC NDP,936,42.92,,0,6,16,81
-CWV,Cowichan Valley,Justin Douglas,BC Green Party,271,12.43,,0,6,16,81
-CWV,Cowichan Valley,James Chumsa,Communist Party of BC,10,0.46,,0,6,16,81
-DLN,Delta North,Monica Mohan,Conservative Party,8718,53.62,yes,7,7,42,63
-DLN,Delta North,Todd Schierling,BC NDP,6604,40.62,,7,7,42,63
-DLN,Delta North,Kuldeep Rangi,CentreBC,937,5.76,,7,7,42,63
-DLS,Delta South,Ian Paton,Conservative Party,1346,56.18,yes,0,4,16,76
-DLS,Delta South,Jason McCormick,BC NDP,729,30.43,,0,4,16,76
-DLS,Delta South,Skadi Green,BC Green Party,225,9.39,,0,4,16,76
-DLS,Delta South,Jim McMurtry,OneBC,96,4.01,,0,4,16,76
-ESC,Esquimalt-Colwood,Darlene Rotchford,BC NDP,7360,43.9,yes,5,6,37,87
-ESC,Esquimalt-Colwood,Dave Johnston,Conservative Party,4848,28.92,,5,6,37,87
-ESC,Esquimalt-Colwood,Sidney Coles,BC Green Party,3769,22.48,,5,6,37,87
-ESC,Esquimalt-Colwood,Sid Tobias,CentreBC,787,4.69,,5,6,37,87
-FRN,Fraser-Nicola,Tony Luck,Conservative Party,777,49.97,yes,0,10,15,69
-FRN,Fraser-Nicola,Jason Leboe,BC NDP,541,34.79,,0,10,15,69
-FRN,Fraser-Nicola,Patrick Michell,BC Green Party,237,15.24,,0,10,15,69
-JFM,Juan de Fuca-Malahat,Mike Hicks,Conservative Party,4562,41.51,yes,4,7,10,77
-JFM,Juan de Fuca-Malahat,Dana Lajeunesse,BC NDP,4318,39.29,,4,7,10,77
-JFM,Juan de Fuca-Malahat,David Evans,BC Green Party,1778,16.18,,4,7,10,77
-JFM,Juan de Fuca-Malahat,Shane Friesen,OneBC,306,2.78,,4,7,10,77
-JFM,Juan de Fuca-Malahat,Jeff Brown,Christian Heritage Party of BC,27,0.25,,4,7,10,77
-KAC,Kamloops Centre,Peter Milobar,Conservative Party,5251,53.43,yes,3,6,32,70
-KAC,Kamloops Centre,Mike Wisla,BC NDP,3049,31.03,,3,6,32,70
-KAC,Kamloops Centre,Annelise Beach,BC Green Party,1030,10.48,,3,6,32,70
-KAC,Kamloops Centre,Rocky McAfee,OneBC,392,3.99,,3,6,32,70
-KAC,Kamloops Centre,Thaelo Proctor,Independent,105,1.07,,3,6,32,70
-KAN,Kamloops-North Thompson,Ward Stamer,Conservative Party,12030,65.76,yes,6,8,61,108
-KAN,Kamloops-North Thompson,Kory Clark,BC NDP,5148,28.14,,6,8,61,108
-KAN,Kamloops-North Thompson,Deborah Friesen,OneBC,1116,6.1,,6,8,61,108
+BNN,Burnaby-New Westminster,Raj Chouhan,BC NDP,5381,56.15,yes,3,4,25,61
+BNN,Burnaby-New Westminster,Joe Latam,Conservative Party,4202,43.85,,3,4,25,61
+BNO,Burnaby North,Simon Chandler,Conservative Party,1438,43.83,yes,0,9,30,63
+BNO,Burnaby North,Janet Routledge,BC NDP,1427,43.49,,0,9,30,63
+BNO,Burnaby North,Maddy Kennedy-Parrott,BC Green Party,347,10.58,,0,9,30,63
+BNO,Burnaby North,Jenny Yamagata,OneBC,69,2.1,,0,9,30,63
+BNS,Burnaby South-Metrotown,Paul Choi,BC NDP,1917,44.78,yes,2,4,11,67
+BNS,Burnaby South-Metrotown,David Xie,Conservative Party,1855,43.33,,2,4,11,67
+BNS,Burnaby South-Metrotown,Bryan Fockler,BC Green Party,355,8.29,,2,4,11,67
+BNS,Burnaby South-Metrotown,Andrew Rose,OneBC,154,3.6,,2,4,11,67
+CBC,Cariboo-Chilcotin,Lorne Doerkson,Conservative Party,4834,76.08,yes,4,7,30,82
+CBC,Cariboo-Chilcotin,Kathryn Askew,BC NDP,1126,17.72,,4,7,30,82
+CBC,Cariboo-Chilcotin,Douglas Gook,BC Green Party,394,6.2,,4,7,30,82
+CHC,Chilliwack-Cultus Lake,A&#39;aliya Warbus,Conservative Party,7661,60.48,yes,5,8,48,77
+CHC,Chilliwack-Cultus Lake,Kelli Paddon,BC NDP,5006,39.52,,5,8,48,77
+CHN,Chilliwack North,Heather Maahs,Conservative Party,8621,60.0,yes,5,5,42,71
+CHN,Chilliwack North,Adila Shaukat,BC NDP,4658,32.42,,5,5,42,71
+CHN,Chilliwack North,Dan Grice,CentreBC,1090,7.59,,5,5,42,71
+CLR,Columbia River-Revelstoke,Scott McInnis,Conservative Party,5974,51.28,yes,5,7,41,62
+CLR,Columbia River-Revelstoke,Andrea Dunlop,BC NDP,4371,37.52,,5,7,41,62
+CLR,Columbia River-Revelstoke,Rana Nelson,BC Green Party,1305,11.2,,5,7,41,62
+CQB,Coquitlam-Burke Mountain,Ryan Peterson,Conservative Party,5774,51.76,yes,5,6,16,72
+CQB,Coquitlam-Burke Mountain,Jodie Wickens,BC NDP,4475,40.11,,5,6,16,72
+CQB,Coquitlam-Burke Mountain,Valerie Morrison,BC Green Party,652,5.84,,5,6,16,72
+CQB,Coquitlam-Burke Mountain,Kaden Mann,CentreBC,255,2.29,,5,6,16,72
+CQM,Coquitlam-Maillardville,Matt Liang,Conservative Party,2899,48.05,yes,0,5,47,71
+CQM,Coquitlam-Maillardville,Jennifer Blatherwick,BC NDP,2553,42.32,,0,5,47,71
+CQM,Coquitlam-Maillardville,Nicola Spurling,BC Green Party,581,9.63,,0,5,47,71
+CRC,Courtenay-Comox,Will Cole-Hamilton,BC NDP,1918,44.99,yes,0,5,38,90
+CRC,Courtenay-Comox,Brennan Day,Conservative Party,1795,42.11,,0,5,38,90
+CRC,Courtenay-Comox,Jay Van Oostdam,BC Green Party,443,10.39,,0,5,38,90
+CRC,Courtenay-Comox,Jason Cook,CentreBC,107,2.51,,0,5,38,90
+CWV,Cowichan Valley,Bert Chen,Conservative Party,1130,43.31,yes,0,6,19,81
+CWV,Cowichan Valley,Debra Toporowski,BC NDP,1114,42.7,,0,6,19,81
+CWV,Cowichan Valley,Justin Douglas,BC Green Party,354,13.57,,0,6,19,81
+CWV,Cowichan Valley,James Chumsa,Communist Party of BC,11,0.42,,0,6,19,81
+DLN,Delta North,Monica Mohan,Conservative Party,9107,53.48,yes,7,7,47,63
+DLN,Delta North,Todd Schierling,BC NDP,6933,40.72,,7,7,47,63
+DLN,Delta North,Kuldeep Rangi,CentreBC,988,5.8,,7,7,47,63
+DLS,Delta South,Ian Paton,Conservative Party,1609,56.9,yes,0,4,18,76
+DLS,Delta South,Jason McCormick,BC NDP,836,29.56,,0,4,18,76
+DLS,Delta South,Skadi Green,BC Green Party,273,9.65,,0,4,18,76
+DLS,Delta South,Jim McMurtry,OneBC,110,3.89,,0,4,18,76
+ESC,Esquimalt-Colwood,Darlene Rotchford,BC NDP,7539,43.64,yes,5,6,42,87
+ESC,Esquimalt-Colwood,Dave Johnston,Conservative Party,5036,29.15,,5,6,42,87
+ESC,Esquimalt-Colwood,Sidney Coles,BC Green Party,3888,22.51,,5,6,42,87
+ESC,Esquimalt-Colwood,Sid Tobias,CentreBC,812,4.7,,5,6,42,87
+FRN,Fraser-Nicola,Tony Luck,Conservative Party,839,50.18,yes,0,10,16,69
+FRN,Fraser-Nicola,Jason Leboe,BC NDP,581,34.75,,0,10,16,69
+FRN,Fraser-Nicola,Patrick Michell,BC Green Party,252,15.07,,0,10,16,69
+JFM,Juan de Fuca-Malahat,Mike Hicks,Conservative Party,4680,41.68,yes,4,7,12,77
+JFM,Juan de Fuca-Malahat,Dana Lajeunesse,BC NDP,4393,39.13,,4,7,12,77
+JFM,Juan de Fuca-Malahat,David Evans,BC Green Party,1818,16.19,,4,7,12,77
+JFM,Juan de Fuca-Malahat,Shane Friesen,OneBC,308,2.74,,4,7,12,77
+JFM,Juan de Fuca-Malahat,Jeff Brown,Christian Heritage Party of BC,29,0.26,,4,7,12,77
+KAC,Kamloops Centre,Peter Milobar,Conservative Party,5455,53.27,yes,3,6,36,70
+KAC,Kamloops Centre,Mike Wisla,BC NDP,3178,31.04,,3,6,36,70
+KAC,Kamloops Centre,Annelise Beach,BC Green Party,1089,10.63,,3,6,36,70
+KAC,Kamloops Centre,Rocky McAfee,OneBC,406,3.96,,3,6,36,70
+KAC,Kamloops Centre,Thaelo Proctor,Independent,112,1.09,,3,6,36,70
+KAN,Kamloops-North Thompson,Ward Stamer,Conservative Party,12334,65.49,yes,7,8,63,108
+KAN,Kamloops-North Thompson,Kory Clark,BC NDP,5353,28.42,,7,8,63,108
+KAN,Kamloops-North Thompson,Deborah Friesen,OneBC,1146,6.09,,7,8,63,108
 KEC,Kelowna Centre,Kristina Loewen,Conservative Party,4114,49.18,yes,4,6,16,80
 KEC,Kelowna Centre,Loyal Wooldridge,BC NDP,3938,47.08,,4,6,16,80
 KEC,Kelowna Centre,Bill Desrosiers,OneBC,313,3.74,,4,6,16,80
-KLC,Kelowna-Lake Country-Coldstream,Pavneet Singh,Conservative Party,6237,49.9,yes,6,7,13,83
-KLC,Kelowna-Lake Country-Coldstream,Binny Boparai,BC NDP,3945,31.56,,6,7,13,83
-KLC,Kelowna-Lake Country-Coldstream,Alexandra Wright,OneBC,1323,10.58,,6,7,13,83
-KLC,Kelowna-Lake Country-Coldstream,Carter Mochinski,BC Green Party,995,7.96,,6,7,13,83
-KLM,Kelowna-Mission,Gavin Dew,Conservative Party,3424,60.38,yes,3,7,6,89
-KLM,Kelowna-Mission,Miriam Rycroft,BC NDP,1559,27.49,,3,7,6,89
-KLM,Kelowna-Mission,Saoirse MacKinnon,BC Green Party,459,8.09,,3,7,6,89
-KLM,Kelowna-Mission,Abraham Nordine,OneBC,229,4.04,,3,7,6,89
-KOC,Kootenay Central,Gordon Skulnec,Conservative Party,3389,48.41,yes,5,8,18,65
-KOC,Kootenay Central,Brittny Anderson,BC NDP,2257,32.24,,5,8,18,65
-KOC,Kootenay Central,Nicole Charlwood,BC Green Party,977,13.96,,5,8,18,65
+KLC,Kelowna-Lake Country-Coldstream,Pavneet Singh,Conservative Party,6260,49.77,yes,6,7,13,83
+KLC,Kelowna-Lake Country-Coldstream,Binny Boparai,BC NDP,3960,31.48,,6,7,13,83
+KLC,Kelowna-Lake Country-Coldstream,Alexandra Wright,OneBC,1363,10.84,,6,7,13,83
+KLC,Kelowna-Lake Country-Coldstream,Carter Mochinski,BC Green Party,995,7.91,,6,7,13,83
+KLM,Kelowna-Mission,Gavin Dew,Conservative Party,3550,60.43,yes,3,7,7,89
+KLM,Kelowna-Mission,Miriam Rycroft,BC NDP,1612,27.44,,3,7,7,89
+KLM,Kelowna-Mission,Saoirse MacKinnon,BC Green Party,481,8.19,,3,7,7,89
+KLM,Kelowna-Mission,Abraham Nordine,OneBC,232,3.95,,3,7,7,89
+KOC,Kootenay Central,Gordon Skulnec,Conservative Party,3389,48.39,yes,5,8,18,65
+KOC,Kootenay Central,Brittny Anderson,BC NDP,2258,32.24,,5,8,18,65
+KOC,Kootenay Central,Nicole Charlwood,BC Green Party,978,13.97,,5,8,18,65
 KOC,Kootenay Central,Hunter Corrigal,OneBC,378,5.4,,5,8,18,65
-KOM,Kootenay-Monashee,Steve Morissette,BC NDP,1090,44.11,yes,1,7,11,59
-KOM,Kootenay-Monashee,Warren Mirko,Conservative Party,985,39.86,,1,7,11,59
-KOM,Kootenay-Monashee,Connie Larochelle,BC Green Party,272,11.01,,1,7,11,59
-KOM,Kootenay-Monashee,Stephen Hill,OneBC,124,5.02,,1,7,11,59
-KOR,Kootenay-Rockies,Pete Davis,Conservative Party,1894,60.47,yes,2,7,18,57
-KOR,Kootenay-Rockies,Norma Blissett,BC NDP,755,24.11,,2,7,18,57
-KOR,Kootenay-Rockies,Keenan Dennehy,BC Green Party,195,6.23,,2,7,18,57
-KOR,Kootenay-Rockies,AJ Wolfe,OneBC,194,6.19,,2,7,18,57
-KOR,Kootenay-Rockies,Paul Heywood,CentreBC,94,3.0,,2,7,18,57
-LAO,Ladysmith-Oceanside,Kris McNichol,Conservative Party,9354,44.9,yes,7,7,23,89
-LAO,Ladysmith-Oceanside,Stephanie Higginson,BC NDP,9317,44.72,,7,7,23,89
-LAO,Ladysmith-Oceanside,Charlene Smylie,BC Green Party,2161,10.37,,7,7,23,89
-LFH,Langford-Highlands,Ravi Parmar,BC NDP,4680,45.2,yes,3,4,14,74
-LFH,Langford-Highlands,Cindy Scott,Conservative Party,4117,39.76,,3,4,14,74
-LFH,Langford-Highlands,Christopher Moon,BC Green Party,1212,11.71,,3,4,14,74
-LFH,Langford-Highlands,Sean Flynn,CentreBC,233,2.25,,3,4,14,74
-LFH,Langford-Highlands,Christian McCay,Christian Heritage Party of BC,58,0.56,,3,4,14,74
-LFH,Langford-Highlands,Alex Thurlborn,Independent,54,0.52,,3,4,14,74
-LLA,Langley-Abbotsford,Harman Bhangu,Conservative Party,8263,61.57,yes,3,4,27,82
-LLA,Langley-Abbotsford,Erin Osborne,BC NDP,3341,24.9,,3,4,27,82
-LLA,Langley-Abbotsford,Melissa Snazell,BC Green Party,1027,7.65,,3,4,27,82
-LLA,Langley-Abbotsford,Shelly Jan,OneBC,595,4.43,,3,4,27,82
-LLA,Langley-Abbotsford,Alex Joehl,Libertarian,194,1.45,,3,4,27,82
-LWG,Langley-Walnut Grove,Misty Van Popta,Conservative Party,4118,54.56,yes,0,4,68,87
-LWG,Langley-Walnut Grove,Holly Isaac,BC NDP,2490,32.99,,0,4,68,87
-LWG,Langley-Walnut Grove,Sam Meyer,BC Green Party,621,8.23,,0,4,68,87
-LWG,Langley-Walnut Grove,Kyle Stevenson,CentreBC,319,4.23,,0,4,68,87
-LWI,Langley-Willowbrook,Jody Toor,Conservative Party,2401,50.81,yes,2,9,30,83
-LWI,Langley-Willowbrook,Andrew Mercier,BC NDP,1744,36.91,,2,9,30,83
-LWI,Langley-Willowbrook,Anisha Sandhu,BC Green Party,390,8.25,,2,9,30,83
-LWI,Langley-Willowbrook,Shubham Joshi,OneBC,190,4.02,,2,9,30,83
-MAE,Maple Ridge East,Lawrence Mok,Conservative Party,6180,53.74,yes,2,4,12,80
-MAE,Maple Ridge East,Hudson Campbell,BC NDP,4323,37.59,,2,4,12,80
+KOM,Kootenay-Monashee,Steve Morissette,BC NDP,1396,43.56,yes,1,7,15,59
+KOM,Kootenay-Monashee,Warren Mirko,Conservative Party,1255,39.16,,1,7,15,59
+KOM,Kootenay-Monashee,Connie Larochelle,BC Green Party,388,12.11,,1,7,15,59
+KOM,Kootenay-Monashee,Stephen Hill,OneBC,166,5.18,,1,7,15,59
+KOR,Kootenay-Rockies,Pete Davis,Conservative Party,1965,60.91,yes,2,7,19,57
+KOR,Kootenay-Rockies,Norma Blissett,BC NDP,762,23.62,,2,7,19,57
+KOR,Kootenay-Rockies,Keenan Dennehy,BC Green Party,201,6.23,,2,7,19,57
+KOR,Kootenay-Rockies,AJ Wolfe,OneBC,200,6.2,,2,7,19,57
+KOR,Kootenay-Rockies,Paul Heywood,CentreBC,98,3.04,,2,7,19,57
+LAO,Ladysmith-Oceanside,Kris McNichol,Conservative Party,9429,44.94,yes,7,7,24,89
+LAO,Ladysmith-Oceanside,Stephanie Higginson,BC NDP,9376,44.68,,7,7,24,89
+LAO,Ladysmith-Oceanside,Charlene Smylie,BC Green Party,2178,10.38,,7,7,24,89
+LFH,Langford-Highlands,Ravi Parmar,BC NDP,4896,45.19,yes,3,4,18,74
+LFH,Langford-Highlands,Cindy Scott,Conservative Party,4320,39.87,,3,4,18,74
+LFH,Langford-Highlands,Christopher Moon,BC Green Party,1262,11.65,,3,4,18,74
+LFH,Langford-Highlands,Sean Flynn,CentreBC,242,2.23,,3,4,18,74
+LFH,Langford-Highlands,Christian McCay,Christian Heritage Party of BC,58,0.54,,3,4,18,74
+LFH,Langford-Highlands,Alex Thurlborn,Independent,57,0.53,,3,4,18,74
+LLA,Langley-Abbotsford,Harman Bhangu,Conservative Party,8528,61.15,yes,3,4,32,82
+LLA,Langley-Abbotsford,Erin Osborne,BC NDP,3513,25.19,,3,4,32,82
+LLA,Langley-Abbotsford,Melissa Snazell,BC Green Party,1086,7.79,,3,4,32,82
+LLA,Langley-Abbotsford,Shelly Jan,OneBC,611,4.38,,3,4,32,82
+LLA,Langley-Abbotsford,Alex Joehl,Libertarian,207,1.48,,3,4,32,82
+LWG,Langley-Walnut Grove,Misty Van Popta,Conservative Party,4614,54.62,yes,0,4,73,87
+LWG,Langley-Walnut Grove,Holly Isaac,BC NDP,2785,32.97,,0,4,73,87
+LWG,Langley-Walnut Grove,Sam Meyer,BC Green Party,677,8.01,,0,4,73,87
+LWG,Langley-Walnut Grove,Kyle Stevenson,CentreBC,372,4.4,,0,4,73,87
+LWI,Langley-Willowbrook,Jody Toor,Conservative Party,2479,50.74,yes,2,9,33,83
+LWI,Langley-Willowbrook,Andrew Mercier,BC NDP,1801,36.86,,2,9,33,83
+LWI,Langley-Willowbrook,Anisha Sandhu,BC Green Party,412,8.43,,2,9,33,83
+LWI,Langley-Willowbrook,Shubham Joshi,OneBC,194,3.97,,2,9,33,83
+MAE,Maple Ridge East,Lawrence Mok,Conservative Party,6184,53.76,yes,2,4,12,80
+MAE,Maple Ridge East,Hudson Campbell,BC NDP,4323,37.58,,2,4,12,80
 MAE,Maple Ridge East,Daniel Kite,BC Green Party,820,7.13,,2,4,12,80
 MAE,Maple Ridge East,Chris Hatchwell,Independent,176,1.53,,2,4,12,80
-MAP,Maple Ridge-Pitt Meadows,Doug Morneau,Conservative Party,705,50.76,yes,0,6,11,84
-MAP,Maple Ridge-Pitt Meadows,Lisa Beare,BC NDP,583,41.97,,0,6,11,84
-MAP,Maple Ridge-Pitt Meadows,Jordan Simmons,CentreBC,55,3.96,,0,6,11,84
-MAP,Maple Ridge-Pitt Meadows,Susan Einarsson,OneBC,46,3.31,,0,6,11,84
-MPR,Mid Island-Pacific Rim,Josie Osborne,BC NDP,2325,46.15,yes,2,9,41,95
-MPR,Mid Island-Pacific Rim,Joshua Dahling,Conservative Party,1991,39.52,,2,9,41,95
-MPR,Mid Island-Pacific Rim,Gracie MacDonald,BC Green Party,722,14.33,,2,9,41,95
-NAI,Nanaimo-Gabriola Island,Sheila Malcolmson,BC NDP,4036,47.39,yes,3,7,28,85
-NAI,Nanaimo-Gabriola Island,Mark MacDonald,Conservative Party,3241,38.06,,3,7,28,85
-NAI,Nanaimo-Gabriola Island,Anna Mary McKenzie,BC Green Party,1239,14.55,,3,7,28,85
-NAL,Nanaimo-Lantzville,George Anderson,BC NDP,8024,47.0,yes,7,7,16,75
-NAL,Nanaimo-Lantzville,Kelsey Pringle,Conservative Party,7365,43.14,,7,7,16,75
-NAL,Nanaimo-Lantzville,Sharleen Weatherley,BC Green Party,1628,9.54,,7,7,16,75
-NAL,Nanaimo-Lantzville,Pepper Saltman,Communist Party of BC,56,0.33,,7,7,16,75
+MAP,Maple Ridge-Pitt Meadows,Doug Morneau,Conservative Party,718,50.39,yes,0,6,12,84
+MAP,Maple Ridge-Pitt Meadows,Lisa Beare,BC NDP,600,42.11,,0,6,12,84
+MAP,Maple Ridge-Pitt Meadows,Jordan Simmons,CentreBC,59,4.14,,0,6,12,84
+MAP,Maple Ridge-Pitt Meadows,Susan Einarsson,OneBC,48,3.37,,0,6,12,84
+MPR,Mid Island-Pacific Rim,Josie Osborne,BC NDP,2503,46.21,yes,2,9,44,95
+MPR,Mid Island-Pacific Rim,Joshua Dahling,Conservative Party,2153,39.75,,2,9,44,95
+MPR,Mid Island-Pacific Rim,Gracie MacDonald,BC Green Party,761,14.05,,2,9,44,95
+NAI,Nanaimo-Gabriola Island,Sheila Malcolmson,BC NDP,4780,48.75,yes,3,7,36,85
+NAI,Nanaimo-Gabriola Island,Mark MacDonald,Conservative Party,3540,36.1,,3,7,36,85
+NAI,Nanaimo-Gabriola Island,Anna Mary McKenzie,BC Green Party,1486,15.15,,3,7,36,85
+NAL,Nanaimo-Lantzville,George Anderson,BC NDP,8322,47.08,yes,7,7,22,75
+NAL,Nanaimo-Lantzville,Kelsey Pringle,Conservative Party,7603,43.01,,7,7,22,75
+NAL,Nanaimo-Lantzville,Sharleen Weatherley,BC Green Party,1692,9.57,,7,7,22,75
+NAL,Nanaimo-Lantzville,Pepper Saltman,Communist Party of BC,60,0.34,,7,7,22,75
 NEC,Nechako Lakes,Diane Black,Conservative Party,1085,56.01,yes,3,8,2,49
 NEC,Nechako Lakes,Jesse Gervais,BC NDP,599,30.92,,3,8,2,49
 NEC,Nechako Lakes,Clint Lambert,Unaffiliated,253,13.06,,3,8,2,49
-NMC,New Westminster-Coquitlam,Jennifer Whiteside,BC NDP,5743,51.85,yes,6,7,7,69
-NMC,New Westminster-Coquitlam,Michele Lau,Conservative Party,3649,32.95,,6,7,7,69
-NMC,New Westminster-Coquitlam,Maureen Curran,BC Green Party,1684,15.2,,6,7,7,69
-NOH,North Coast-Haida Gwaii,Tamara Davidson,BC NDP,2466,66.87,yes,6,7,13,41
-NOH,North Coast-Haida Gwaii,Rodney Proskiw,Conservative Party,902,24.46,,6,7,13,41
-NOH,North Coast-Haida Gwaii,Francis Racy,BC Green Party,320,8.68,,6,7,13,41
-NOI,North Island,Anna Kindy,Conservative Party,1358,54.98,yes,1,8,20,100
-NOI,North Island,Sara Lopez,BC NDP,864,34.98,,1,8,20,100
-NOI,North Island,Benjamin Olsson,BC Green Party,204,8.26,,1,8,20,100
-NOI,North Island,Richard Lambert,Independent,44,1.78,,1,8,20,100
-NVL,North Vancouver-Lonsdale,Bowinn Ma,BC NDP,2795,45.42,yes,3,6,0,79
-NVL,North Vancouver-Lonsdale,Trevor Withers,Conservative Party,2746,44.62,,3,6,0,79
-NVL,North Vancouver-Lonsdale,Joshua A Singer Johnson,BC Green Party,613,9.96,,3,6,0,79
-NVS,North Vancouver-Seymour,Lynne Block,Conservative Party,8532,47.94,yes,5,7,34,78
-NVS,North Vancouver-Seymour,Susie Chant,BC NDP,6677,37.51,,5,7,34,78
-NVS,North Vancouver-Seymour,Ben Holt,BC Green Party,1781,10.01,,5,7,34,78
-NVS,North Vancouver-Seymour,Lori Climenhaga,CentreBC,809,4.55,,5,7,34,78
-OBG,Oak Bay-Gordon Head,Diana Gibson,BC NDP,723,36.37,yes,0,8,10,68
-OBG,Oak Bay-Gordon Head,Stan Sipos,Conservative Party,616,30.99,,0,8,10,68
-OBG,Oak Bay-Gordon Head,Andrew Appleton,BC Green Party,454,22.84,,0,8,10,68
-OBG,Oak Bay-Gordon Head,Andrew Weaver,CentreBC,195,9.81,,0,8,10,68
-PCN,Peace River North,Curtis Whitford,Conservative Party,6925,85.85,yes,6,6,26,60
-PCN,Peace River North,Jordan Kealy,Independent,1141,14.15,,6,6,26,60
-PCS,Peace River South,Larry Neufeld,Conservative Party,3216,78.52,yes,2,5,11,38
-PCS,Peace River South,Marsha Rose Dufresne,BC NDP,646,15.77,,2,5,11,38
-PCS,Peace River South,Helen Scott,Unaffiliated,234,5.71,,2,5,11,38
-PES,Penticton-Summerland,Tracy St Claire,Conservative Party,5702,47.42,yes,3,6,16,78
-PES,Penticton-Summerland,Tina Lee,BC NDP,4808,39.99,,3,6,16,78
+NMC,New Westminster-Coquitlam,Jennifer Whiteside,BC NDP,5879,51.42,yes,6,7,9,69
+NMC,New Westminster-Coquitlam,Michele Lau,Conservative Party,3822,33.43,,6,7,9,69
+NMC,New Westminster-Coquitlam,Maureen Curran,BC Green Party,1733,15.16,,6,7,9,69
+NOH,North Coast-Haida Gwaii,Tamara Davidson,BC NDP,2468,66.88,yes,6,7,13,41
+NOH,North Coast-Haida Gwaii,Rodney Proskiw,Conservative Party,902,24.44,,6,7,13,41
+NOH,North Coast-Haida Gwaii,Francis Racy,BC Green Party,320,8.67,,6,7,13,41
+NOI,North Island,Anna Kindy,Conservative Party,1439,54.24,yes,1,8,22,100
+NOI,North Island,Sara Lopez,BC NDP,946,35.66,,1,8,22,100
+NOI,North Island,Benjamin Olsson,BC Green Party,223,8.41,,1,8,22,100
+NOI,North Island,Richard Lambert,Independent,45,1.7,,1,8,22,100
+NVL,North Vancouver-Lonsdale,Bowinn Ma,BC NDP,4438,45.87,yes,4,6,0,79
+NVL,North Vancouver-Lonsdale,Trevor Withers,Conservative Party,4284,44.27,,4,6,0,79
+NVL,North Vancouver-Lonsdale,Joshua A Singer Johnson,BC Green Party,954,9.86,,4,6,0,79
+NVS,North Vancouver-Seymour,Lynne Block,Conservative Party,8638,47.81,yes,5,7,36,78
+NVS,North Vancouver-Seymour,Susie Chant,BC NDP,6777,37.51,,5,7,36,78
+NVS,North Vancouver-Seymour,Ben Holt,BC Green Party,1824,10.1,,5,7,36,78
+NVS,North Vancouver-Seymour,Lori Climenhaga,CentreBC,827,4.58,,5,7,36,78
+OBG,Oak Bay-Gordon Head,Diana Gibson,BC NDP,1117,35.89,yes,0,8,15,68
+OBG,Oak Bay-Gordon Head,Stan Sipos,Conservative Party,989,31.78,,0,8,15,68
+OBG,Oak Bay-Gordon Head,Andrew Appleton,BC Green Party,700,22.49,,0,8,15,68
+OBG,Oak Bay-Gordon Head,Andrew Weaver,CentreBC,306,9.83,,0,8,15,68
+PCN,Peace River North,Curtis Whitford,Conservative Party,6961,85.89,yes,6,6,27,60
+PCN,Peace River North,Jordan Kealy,Independent,1144,14.11,,6,6,27,60
+PCS,Peace River South,Larry Neufeld,Conservative Party,3307,78.5,yes,2,5,12,38
+PCS,Peace River South,Marsha Rose Dufresne,BC NDP,655,15.55,,2,5,12,38
+PCS,Peace River South,Helen Scott,Unaffiliated,251,5.96,,2,5,12,38
+PES,Penticton-Summerland,Tracy St Claire,Conservative Party,5704,47.43,yes,3,6,16,78
+PES,Penticton-Summerland,Tina Lee,BC NDP,4808,39.98,,3,6,16,78
 PES,Penticton-Summerland,Bradley Sean Bartsch,BC Green Party,855,7.11,,3,6,16,78
 PES,Penticton-Summerland,Warren Hamm,OneBC,659,5.48,,3,6,16,78
-POC,Port Coquitlam,Keenan Adams,Conservative Party,1822,45.19,yes,2,8,14,83
-POC,Port Coquitlam,Mike Farnworth,BC NDP,1776,44.05,,2,8,14,83
+POC,Port Coquitlam,Keenan Adams,Conservative Party,1822,45.17,yes,2,8,14,83
+POC,Port Coquitlam,Mike Farnworth,BC NDP,1778,44.08,,2,8,14,83
 POC,Port Coquitlam,Stephanie Hendy,BC Green Party,338,8.38,,2,8,14,83
 POC,Port Coquitlam,Lee-Ann Bates,Unaffiliated,53,1.31,,2,8,14,83
 POC,Port Coquitlam,Lewis C. Dahlby,Libertarian,43,1.07,,2,8,14,83
-POM,Port Moody-Burquitlam,John McEwen,Conservative Party,7008,47.2,yes,3,4,35,83
-POM,Port Moody-Burquitlam,Rick Glumac,BC NDP,6245,42.06,,3,4,35,83
-POM,Port Moody-Burquitlam,Wei Chou,BC Green Party,1198,8.07,,3,4,35,83
-POM,Port Moody-Burquitlam,Freddy Rawji,CentreBC,398,2.68,,3,4,35,83
-POR,Powell River-Sunshine Coast,Randene Neill,BC NDP,5800,48.7,yes,2,9,63,77
-POR,Powell River-Sunshine Coast,John Henderson,Conservative Party,4718,39.61,,2,9,63,77
-POR,Powell River-Sunshine Coast,Griffin Leonard Lea,BC Green Party,1392,11.69,,2,9,63,77
-PRM,Prince George-Mackenzie,Kiel Giddens,Conservative Party,6345,68.54,yes,7,8,13,57
-PRM,Prince George-Mackenzie,Ian McMahon,BC NDP,2033,21.96,,7,8,13,57
-PRM,Prince George-Mackenzie,Teri Young,BC Green Party,880,9.51,,7,8,13,57
+POM,Port Moody-Burquitlam,John McEwen,Conservative Party,7214,47.08,yes,3,4,39,83
+POM,Port Moody-Burquitlam,Rick Glumac,BC NDP,6459,42.15,,3,4,39,83
+POM,Port Moody-Burquitlam,Wei Chou,BC Green Party,1238,8.08,,3,4,39,83
+POM,Port Moody-Burquitlam,Freddy Rawji,CentreBC,413,2.7,,3,4,39,83
+POR,Powell River-Sunshine Coast,Randene Neill,BC NDP,5803,48.71,yes,2,9,63,77
+POR,Powell River-Sunshine Coast,John Henderson,Conservative Party,4719,39.61,,2,9,63,77
+POR,Powell River-Sunshine Coast,Griffin Leonard Lea,BC Green Party,1392,11.68,,2,9,63,77
+PRM,Prince George-Mackenzie,Kiel Giddens,Conservative Party,6611,68.25,yes,7,8,16,57
+PRM,Prince George-Mackenzie,Ian McMahon,BC NDP,2138,22.07,,7,8,16,57
+PRM,Prince George-Mackenzie,Teri Young,BC Green Party,938,9.68,,7,8,16,57
 PRO,Prince George-North Cariboo,Sheldon Clare,Conservative Party,6145,70.84,yes,6,7,13,63
 PRO,Prince George-North Cariboo,Denice Bardua,BC NDP,1766,20.36,,6,7,13,63
 PRO,Prince George-North Cariboo,Randy Thompson,BC Green Party,764,8.81,,6,7,13,63
-PRV,Prince George-Valemount,Rosalyn Bird,Conservative Party,2004,53.91,yes,3,6,21,64
-PRV,Prince George-Valemount,Carol Bourque,BC NDP,1008,27.12,,3,6,21,64
-PRV,Prince George-Valemount,Jodie Capling,BC Green Party,427,11.49,,3,6,21,64
-PRV,Prince George-Valemount,Mitchell Lukoni,OneBC,278,7.48,,3,6,21,64
-RCB,Richmond-Bridgeport,Teresa Wat,Conservative Party,6859,67.87,yes,3,5,45,71
-RCB,Richmond-Bridgeport,Linda Li,BC NDP,3247,32.13,,3,5,45,71
-RCC,Richmond Centre,Sacha Peter,Conservative Party,547,55.76,yes,1,6,10,61
-RCC,Richmond Centre,Henry Yao,BC NDP,350,35.68,,1,6,10,61
-RCC,Richmond Centre,Calvin Dang,BC Green Party,74,7.54,,1,6,10,61
-RCC,Richmond Centre,Lawrence Chen,CWP,10,1.02,,1,6,10,61
-RCQ,Richmond-Queensborough,Steve Kooner,Conservative Party,386,56.76,yes,0,5,4,77
-RCQ,Richmond-Queensborough,Dhar Grewal,BC NDP,243,35.74,,0,5,4,77
-RCQ,Richmond-Queensborough,Luc Burns,BC Green Party,51,7.5,,0,5,4,77
-RCS,Richmond-Steveston,Gordon Zhang,Conservative Party,5777,57.42,yes,7,8,14,67
-RCS,Richmond-Steveston,Bruce Kong,BC NDP,3335,33.15,,7,8,14,67
-RCS,Richmond-Steveston,Barry Wosk,CentreBC,644,6.4,,7,8,14,67
-RCS,Richmond-Steveston,Robert Evans,Independent,243,2.42,,7,8,14,67
+PRV,Prince George-Valemount,Rosalyn Bird,Conservative Party,2246,54.58,yes,3,6,24,64
+PRV,Prince George-Valemount,Carol Bourque,BC NDP,1082,26.29,,3,6,24,64
+PRV,Prince George-Valemount,Jodie Capling,BC Green Party,465,11.3,,3,6,24,64
+PRV,Prince George-Valemount,Mitchell Lukoni,OneBC,322,7.83,,3,6,24,64
+RCB,Richmond-Bridgeport,Teresa Wat,Conservative Party,7167,67.81,yes,3,5,50,71
+RCB,Richmond-Bridgeport,Linda Li,BC NDP,3403,32.19,,3,5,50,71
+RCC,Richmond Centre,Sacha Peter,Conservative Party,1180,59.93,yes,2,6,10,61
+RCC,Richmond Centre,Henry Yao,BC NDP,632,32.1,,2,6,10,61
+RCC,Richmond Centre,Calvin Dang,BC Green Party,133,6.75,,2,6,10,61
+RCC,Richmond Centre,Lawrence Chen,CWP,24,1.22,,2,6,10,61
+RCQ,Richmond-Queensborough,Steve Kooner,Conservative Party,389,56.79,yes,0,5,4,77
+RCQ,Richmond-Queensborough,Dhar Grewal,BC NDP,245,35.77,,0,5,4,77
+RCQ,Richmond-Queensborough,Luc Burns,BC Green Party,51,7.45,,0,5,4,77
+RCS,Richmond-Steveston,Gordon Zhang,Conservative Party,5781,57.42,yes,7,8,14,67
+RCS,Richmond-Steveston,Bruce Kong,BC NDP,3337,33.14,,7,8,14,67
+RCS,Richmond-Steveston,Barry Wosk,CentreBC,645,6.41,,7,8,14,67
+RCS,Richmond-Steveston,Robert Evans,Independent,243,2.41,,7,8,14,67
 RCS,Richmond-Steveston,Keenan Yang,CWP,62,0.62,,7,8,14,67
-SAN,Saanich North and the Islands,Emily Lowan,BC Green Party,2110,53.42,yes,1,8,33,97
-SAN,Saanich North and the Islands,Ryan Windsor,Conservative Party,1071,27.11,,1,8,33,97
-SAN,Saanich North and the Islands,Kala Bryson,BC NDP,683,17.29,,1,8,33,97
-SAN,Saanich North and the Islands,Richard Smith,CentreBC,86,2.18,,1,8,33,97
-SAS,Saanich South,Cathie Ounsted,Conservative Party,6932,40.14,yes,7,8,29,81
-SAS,Saanich South,Richard Zussman,BC NDP,6008,34.79,,7,8,29,81
-SAS,Saanich South,Lisa Lapointe,BC Green Party,4328,25.06,,7,8,29,81
-SHU,Salmon Arm-Shuswap,David L Williams,Conservative Party,4677,58.48,yes,5,11,7,106
-SHU,Salmon Arm-Shuswap,Gloria Morgan,BC NDP,2171,27.14,,5,11,7,106
-SHU,Salmon Arm-Shuswap,Jed Wiebe,BC Green Party,555,6.94,,5,11,7,106
-SHU,Salmon Arm-Shuswap,Barbara Presch,OneBC,393,4.91,,5,11,7,106
-SHU,Salmon Arm-Shuswap,Denise Reimer,CentreBC,202,2.53,,5,11,7,106
-SKE,Skeena,Claire Ratt&#233;e,Conservative Party,2213,50.1,yes,5,7,6,42
-SKE,Skeena,Sarah Zimmerman,BC NDP,1756,39.76,,5,7,6,42
+SAN,Saanich North and the Islands,Emily Lowan,BC Green Party,2135,53.27,yes,1,8,34,97
+SAN,Saanich North and the Islands,Ryan Windsor,Conservative Party,1087,27.12,,1,8,34,97
+SAN,Saanich North and the Islands,Kala Bryson,BC NDP,697,17.39,,1,8,34,97
+SAN,Saanich North and the Islands,Richard Smith,CentreBC,89,2.22,,1,8,34,97
+SAS,Saanich South,Cathie Ounsted,Conservative Party,7304,40.16,yes,7,8,35,81
+SAS,Saanich South,Richard Zussman,BC NDP,6290,34.59,,7,8,35,81
+SAS,Saanich South,Lisa Lapointe,BC Green Party,4592,25.25,,7,8,35,81
+SHU,Salmon Arm-Shuswap,David L Williams,Conservative Party,4732,58.23,yes,5,11,8,106
+SHU,Salmon Arm-Shuswap,Gloria Morgan,BC NDP,2218,27.29,,5,11,8,106
+SHU,Salmon Arm-Shuswap,Jed Wiebe,BC Green Party,563,6.93,,5,11,8,106
+SHU,Salmon Arm-Shuswap,Barbara Presch,OneBC,401,4.93,,5,11,8,106
+SHU,Salmon Arm-Shuswap,Denise Reimer,CentreBC,213,2.62,,5,11,8,106
+SKE,Skeena,Claire Ratt&#233;e,Conservative Party,2215,50.12,yes,5,7,6,42
+SKE,Skeena,Sarah Zimmerman,BC NDP,1756,39.74,,5,7,6,42
 SKE,Skeena,Nick Gottlieb,BC Green Party,354,8.01,,5,7,6,42
 SKE,Skeena,Larry Eugene Taylor,OneBC,94,2.13,,5,7,6,42
-SRC,Surrey City Centre,Zeeshan Wahla,Conservative Party,707,47.8,yes,0,7,15,65
-SRC,Surrey City Centre,Amna Shah,BC NDP,668,45.17,,0,7,15,65
-SRC,Surrey City Centre,Oliver Wildfong,OneBC,66,4.46,,0,7,15,65
-SRC,Surrey City Centre,Raman Sharma,CentreBC,38,2.57,,0,7,15,65
-SRD,Surrey-Cloverdale,Nicholas Cartmell,Conservative Party,315,48.99,yes,0,5,4,70
-SRD,Surrey-Cloverdale,Stephen Dooley,BC NDP,246,38.26,,0,5,4,70
-SRD,Surrey-Cloverdale,Pat McCutcheon,BC Green Party,46,7.15,,0,5,4,70
-SRD,Surrey-Cloverdale,Sargy Chima,CentreBC,21,3.27,,0,5,4,70
-SRD,Surrey-Cloverdale,Travis Marchenski,OneBC,15,2.33,,0,5,4,70
-SRF,Surrey-Fleetwood,Garry Purewal,Conservative Party,6498,51.0,yes,4,5,35,63
-SRF,Surrey-Fleetwood,Jagrup Brar,BC NDP,4805,37.71,,4,5,35,63
-SRF,Surrey-Fleetwood,Tim Binnema,BC Green Party,751,5.89,,4,5,35,63
-SRF,Surrey-Fleetwood,Carolyn Hofbauer,OneBC,393,3.08,,4,5,35,63
-SRF,Surrey-Fleetwood,Paul Brar,CentreBC,294,2.31,,4,5,35,63
-SRG,Surrey-Guildford,Garry Thind,Conservative Party,4613,49.28,yes,6,6,16,70
-SRG,Surrey-Guildford,Garry Begg,BC NDP,3969,42.4,,6,6,16,70
-SRG,Surrey-Guildford,Jodi Murphy,BC Green Party,581,6.21,,6,6,16,70
-SRG,Surrey-Guildford,James Yaroshuk,Unaffiliated,198,2.12,,6,6,16,70
-SRN,Surrey-Newton,Harj Dhaliwal,Conservative Party,2238,55.0,yes,1,7,23,53
-SRN,Surrey-Newton,Jessie Sunner,BC NDP,1625,39.94,,1,7,23,53
-SRN,Surrey-Newton,Harman Preet Singh,CentreBC,206,5.06,,1,7,23,53
-SUN,Surrey North,Mandeep Singh Dhaliwal,Conservative Party,3362,58.46,yes,4,4,4,61
-SUN,Surrey North,Sahib Thind,BC NDP,1861,32.36,,4,4,4,61
-SUN,Surrey North,Yudhbir Gill,BC Green Party,225,3.91,,4,4,4,61
-SUN,Surrey North,Parm Bhandol,CentreBC,165,2.87,,4,4,4,61
-SUN,Surrey North,Tanya Gupta,OneBC,111,1.93,,4,4,4,61
-SUN,Surrey North,Jag Bhandari,Unaffiliated,27,0.47,,4,4,4,61
-SUP,Surrey-Panorama,Bryan Tepper,Conservative Party,5653,58.3,yes,2,3,30,57
-SUP,Surrey-Panorama,Jinny Sims,BC NDP,3314,34.18,,2,3,30,57
-SUP,Surrey-Panorama,Nolen Scott,BC Green Party,470,4.85,,2,3,30,57
-SUP,Surrey-Panorama,Manav Manro,CentreBC,260,2.68,,2,3,30,57
-SUR,Surrey-Serpentine River,Jessy Sahota,Conservative Party,7193,58.48,yes,4,5,29,65
-SUR,Surrey-Serpentine River,Sikander Kang,BC NDP,3982,32.38,,4,5,29,65
-SUR,Surrey-Serpentine River,Judy Higginbotham,CentreBC,642,5.22,,4,5,29,65
-SUR,Surrey-Serpentine River,Todd Holowchak,OneBC,403,3.28,,4,5,29,65
-SUR,Surrey-Serpentine River,Errol Povah,Freedom Party of BC,79,0.64,,4,5,29,65
-SUS,Surrey South,Megan Knight,Conservative Party,6323,61.8,yes,4,6,2,76
-SUS,Surrey South,Parik Tahlan,BC NDP,2164,21.15,,4,6,2,76
-SUS,Surrey South,Elenore Sturko,CentreBC,1142,11.16,,4,6,2,76
-SUS,Surrey South,Bill McConnell,BC Green Party,468,4.57,,4,6,2,76
-SUS,Surrey South,Denis R Hurtubise,Unaffiliated,135,1.32,,4,6,2,76
-SWR,Surrey-White Rock,Trevor Halford,Conservative Party,7614,58.88,yes,4,6,25,81
-SWR,Surrey-White Rock,Darryl Walker,BC NDP,3753,29.02,,4,6,25,81
-SWR,Surrey-White Rock,Christine Kinnie,BC Green Party,896,6.93,,4,6,25,81
-SWR,Surrey-White Rock,Amanda James,OneBC,293,2.27,,4,6,25,81
-SWR,Surrey-White Rock,Waqas Rana,CentreBC,274,2.12,,4,6,25,81
-SWR,Surrey-White Rock,Kevin Diakiw,Independent,101,0.78,,4,6,25,81
-VFV,Vancouver-Fraserview,Deep Sandhu,Conservative Party,3742,44.8,yes,4,7,41,68
-VFV,Vancouver-Fraserview,Aman Singh,BC NDP,3466,41.5,,4,7,41,68
-VFV,Vancouver-Fraserview,Francoise Raunet,BC Green Party,1144,13.7,,4,7,41,68
-VHA,Vancouver-Hastings,Niki Sharma,BC NDP,4034,52.05,yes,1,4,18,68
-VHA,Vancouver-Hastings,Phyllis Tang,Conservative Party,1790,23.1,,1,4,18,68
-VHA,Vancouver-Hastings,Kyra Philbert,BC Green Party,1611,20.79,,1,4,18,68
-VHA,Vancouver-Hastings,Christian Bosio,CentreBC,178,2.3,,1,4,18,68
-VHA,Vancouver-Hastings,Kimball Cariou,Communist Party of BC,70,0.9,,1,4,18,68
-VHA,Vancouver-Hastings,Phil Webb,Libertarian,67,0.86,,1,4,18,68
-VKE,Vancouver-Kensington,Mable Elmore,BC NDP,3042,46.36,yes,1,4,33,61
-VKE,Vancouver-Kensington,Aron Lageri,Conservative Party,2435,37.11,,1,4,33,61
-VKE,Vancouver-Kensington,Adam Hawk,BC Green Party,1085,16.53,,1,4,33,61
-VLA,Vancouver-Langara,Jaime Stein,Conservative Party,2303,49.92,yes,2,4,16,63
-VLA,Vancouver-Langara,Sunita Dhir,BC NDP,1769,38.35,,2,4,16,63
-VLA,Vancouver-Langara,John Atoyebi,BC Green Party,420,9.1,,2,4,16,63
-VLA,Vancouver-Langara,Alan Beesley,CentreBC,121,2.62,,2,4,16,63
-VLM,Vancouver-Little Mountain,Christine Boyle,BC NDP,904,48.19,yes,0,4,11,71
-VLM,Vancouver-Little Mountain,Alex Muir,Conservative Party,615,32.78,,0,4,11,71
-VLM,Vancouver-Little Mountain,Sarah MacLeod,BC Green Party,357,19.03,,0,4,11,71
-VNP,Vancouver-Point Grey,David Eby,BC NDP,5916,42.56,yes,7,7,31,63
-VNP,Vancouver-Point Grey,Alex McMillan,Conservative Party,5703,41.03,,7,7,31,63
-VNP,Vancouver-Point Grey,Beatrice Sharpe,BC Green Party,1794,12.91,,7,7,31,63
-VNP,Vancouver-Point Grey,Michael Davis,CentreBC,487,3.5,,7,7,31,63
-VNQ,Vancouver-Quilchena,Carson Binda,Conservative Party,4362,56.83,yes,3,6,10,63
-VNQ,Vancouver-Quilchena,Callista Ryan,BC NDP,1980,25.8,,3,6,10,63
-VNQ,Vancouver-Quilchena,Douglas Courtemanche,BC Green Party,672,8.76,,3,6,10,63
-VNQ,Vancouver-Quilchena,Petra Kuret,CentreBC,336,4.38,,3,6,10,63
-VNQ,Vancouver-Quilchena,Dallas Brodie,OneBC,325,4.23,,3,6,10,63
-VNR,Vancouver-Renfrew,Adrian Dix,BC NDP,1616,55.55,yes,0,5,31,65
-VNR,Vancouver-Renfrew,Tom Ikonomou,Conservative Party,884,30.39,,0,5,31,65
-VNR,Vancouver-Renfrew,Rebecca Haber,BC Green Party,345,11.86,,0,5,31,65
-VNR,Vancouver-Renfrew,Lisa Prescott,CentreBC,64,2.2,,0,5,31,65
-VNS,Vancouver-South Granville,Lara Honrado,BC NDP,4239,47.13,yes,5,7,0,74
-VNS,Vancouver-South Granville,Lisa Phillips,Conservative Party,2793,31.05,,5,7,0,74
-VNS,Vancouver-South Granville,Maria J Cruz,BC Green Party,1567,17.42,,5,7,0,74
-VNS,Vancouver-South Granville,Colin Smith,CentreBC,314,3.49,,5,7,0,74
-VNS,Vancouver-South Granville,Salvatore Vetro,OneBC,82,0.91,,5,7,0,74
-VNT,Vancouver-Strathcona,Amanda Burrows,BC NDP,5254,56.04,yes,5,7,8,68
-VNT,Vancouver-Strathcona,Tanya Webking,BC Green Party,2737,29.19,,5,7,8,68
-VNT,Vancouver-Strathcona,Jordan Zheng McIntosh,Conservative Party,1285,13.71,,5,7,8,68
-VNT,Vancouver-Strathcona,Robert Crooks,Communist Party of BC,100,1.07,,5,7,8,68
-VNW,Vancouver-West End,Spencer Chandra Herbert,BC NDP,7294,53.55,yes,4,6,50,72
-VNW,Vancouver-West End,Dion Weisner,Conservative Party,3829,28.11,,4,6,50,72
-VNW,Vancouver-West End,Scott MacDonald,BC Green Party,2497,18.33,,4,6,50,72
-VNY,Vancouver-Yaletown,Terry Yung,BC NDP,807,43.2,yes,2,6,0,63
-VNY,Vancouver-Yaletown,Margareta Dovgal,Conservative Party,785,42.02,,2,6,0,63
-VNY,Vancouver-Yaletown,Priyan Samarakoone,BC Green Party,213,11.4,,2,6,0,63
-VNY,Vancouver-Yaletown,Sam Chandola,CentreBC,63,3.37,,2,6,0,63
-VRL,Vernon-Lumby,Kevin Acton,Conservative Party,7092,50.98,yes,4,7,26,76
-VRL,Vernon-Lumby,Harwinder Sandhu,BC NDP,5327,38.29,,4,7,26,76
-VRL,Vernon-Lumby,Blair Visscher,BC Green Party,904,6.5,,4,7,26,76
-VRL,Vernon-Lumby,Chantel Gibbs,OneBC,589,4.23,,4,7,26,76
-VTB,Victoria-Beacon Hill,Grace Lore,BC NDP,6487,46.75,yes,5,7,38,74
-VTB,Victoria-Beacon Hill,Rajinder S. Sahota,BC Green Party,5332,38.42,,5,7,38,74
-VTB,Victoria-Beacon Hill,Joachim Agou,Conservative Party,2058,14.83,,5,7,38,74
-VTS,Victoria-Swan Lake,Nina Krieger,BC NDP,5556,44.83,yes,5,6,18,67
-VTS,Victoria-Swan Lake,Carolyn Howe,BC Green Party,4078,32.91,,5,6,18,67
-VTS,Victoria-Swan Lake,Tim Taylor,Conservative Party,2759,22.26,,5,6,18,67
-WKP,West Kelowna-Peachland,Macklin McCall,Conservative Party,11437,63.22,yes,7,7,59,90
-WKP,West Kelowna-Peachland,George Morgan,BC NDP,5268,29.12,,7,7,59,90
-WKP,West Kelowna-Peachland,Adam Frank,BC Green Party,1386,7.66,,7,7,59,90
-WVC,West Vancouver-Capilano,Caroline Elliott,Conservative Party,10895,69.25,yes,5,6,28,72
-WVC,West Vancouver-Capilano,Honieh Barzegari,BC NDP,2991,19.01,,5,6,28,72
-WVC,West Vancouver-Capilano,Arwa Shurab,BC Green Party,1583,10.06,,5,6,28,72
-WVC,West Vancouver-Capilano,Naomi Chocyk,OneBC,264,1.68,,5,6,28,72
-WVS,West Vancouver-Sea to Sky,Jeremy Valeriote,BC Green Party,6670,45.81,yes,8,8,36,82
-WVS,West Vancouver-Sea to Sky,Ayla Dumais,Conservative Party,5870,40.32,,8,8,36,82
-WVS,West Vancouver-Sea to Sky,Michelle Livaja,BC NDP,1469,10.09,,8,8,36,82
-WVS,West Vancouver-Sea to Sky,Dan Wood,CentreBC,551,3.78,,8,8,36,82
+SRC,Surrey City Centre,Zeeshan Wahla,Conservative Party,779,47.04,yes,0,7,17,65
+SRC,Surrey City Centre,Amna Shah,BC NDP,758,45.77,,0,7,17,65
+SRC,Surrey City Centre,Oliver Wildfong,OneBC,77,4.65,,0,7,17,65
+SRC,Surrey City Centre,Raman Sharma,CentreBC,42,2.54,,0,7,17,65
+SRD,Surrey-Cloverdale,Nicholas Cartmell,Conservative Party,317,49.0,yes,0,5,4,70
+SRD,Surrey-Cloverdale,Stephen Dooley,BC NDP,246,38.02,,0,5,4,70
+SRD,Surrey-Cloverdale,Pat McCutcheon,BC Green Party,47,7.26,,0,5,4,70
+SRD,Surrey-Cloverdale,Sargy Chima,CentreBC,22,3.4,,0,5,4,70
+SRD,Surrey-Cloverdale,Travis Marchenski,OneBC,15,2.32,,0,5,4,70
+SRF,Surrey-Fleetwood,Garry Purewal,Conservative Party,6742,50.7,yes,4,5,39,63
+SRF,Surrey-Fleetwood,Jagrup Brar,BC NDP,5054,38.01,,4,5,39,63
+SRF,Surrey-Fleetwood,Tim Binnema,BC Green Party,793,5.96,,4,5,39,63
+SRF,Surrey-Fleetwood,Carolyn Hofbauer,OneBC,408,3.07,,4,5,39,63
+SRF,Surrey-Fleetwood,Paul Brar,CentreBC,301,2.26,,4,5,39,63
+SRG,Surrey-Guildford,Garry Thind,Conservative Party,4819,49.13,yes,6,6,21,70
+SRG,Surrey-Guildford,Garry Begg,BC NDP,4170,42.51,,6,6,21,70
+SRG,Surrey-Guildford,Jodi Murphy,BC Green Party,604,6.16,,6,6,21,70
+SRG,Surrey-Guildford,James Yaroshuk,Unaffiliated,216,2.2,,6,6,21,70
+SRN,Surrey-Newton,Harj Dhaliwal,Conservative Party,2544,55.72,yes,1,7,27,53
+SRN,Surrey-Newton,Jessie Sunner,BC NDP,1802,39.47,,1,7,27,53
+SRN,Surrey-Newton,Harman Preet Singh,CentreBC,220,4.82,,1,7,27,53
+SUN,Surrey North,Mandeep Singh Dhaliwal,Conservative Party,3606,59.03,yes,4,4,7,61
+SUN,Surrey North,Sahib Thind,BC NDP,1953,31.97,,4,4,7,61
+SUN,Surrey North,Yudhbir Gill,BC Green Party,231,3.78,,4,4,7,61
+SUN,Surrey North,Parm Bhandol,CentreBC,173,2.83,,4,4,7,61
+SUN,Surrey North,Tanya Gupta,OneBC,117,1.92,,4,4,7,61
+SUN,Surrey North,Jag Bhandari,Unaffiliated,29,0.47,,4,4,7,61
+SUP,Surrey-Panorama,Bryan Tepper,Conservative Party,5759,58.35,yes,2,3,31,57
+SUP,Surrey-Panorama,Jinny Sims,BC NDP,3369,34.13,,2,3,31,57
+SUP,Surrey-Panorama,Nolen Scott,BC Green Party,477,4.83,,2,3,31,57
+SUP,Surrey-Panorama,Manav Manro,CentreBC,265,2.68,,2,3,31,57
+SUR,Surrey-Serpentine River,Jessy Sahota,Conservative Party,7317,58.41,yes,4,5,31,65
+SUR,Surrey-Serpentine River,Sikander Kang,BC NDP,4058,32.4,,4,5,31,65
+SUR,Surrey-Serpentine River,Judy Higginbotham,CentreBC,660,5.27,,4,5,31,65
+SUR,Surrey-Serpentine River,Todd Holowchak,OneBC,410,3.27,,4,5,31,65
+SUR,Surrey-Serpentine River,Errol Povah,Freedom Party of BC,81,0.65,,4,5,31,65
+SUS,Surrey South,Megan Knight,Conservative Party,6358,61.87,yes,4,6,2,76
+SUS,Surrey South,Parik Tahlan,BC NDP,2167,21.09,,4,6,2,76
+SUS,Surrey South,Elenore Sturko,CentreBC,1145,11.14,,4,6,2,76
+SUS,Surrey South,Bill McConnell,BC Green Party,470,4.57,,4,6,2,76
+SUS,Surrey South,Denis R Hurtubise,Unaffiliated,136,1.32,,4,6,2,76
+SWR,Surrey-White Rock,Trevor Halford,Conservative Party,7875,59.24,yes,4,6,27,81
+SWR,Surrey-White Rock,Darryl Walker,BC NDP,3822,28.75,,4,6,27,81
+SWR,Surrey-White Rock,Christine Kinnie,BC Green Party,919,6.91,,4,6,27,81
+SWR,Surrey-White Rock,Amanda James,OneBC,296,2.23,,4,6,27,81
+SWR,Surrey-White Rock,Waqas Rana,CentreBC,281,2.11,,4,6,27,81
+SWR,Surrey-White Rock,Kevin Diakiw,Independent,101,0.76,,4,6,27,81
+VFV,Vancouver-Fraserview,Deep Sandhu,Conservative Party,3989,45.3,yes,4,7,45,68
+VFV,Vancouver-Fraserview,Aman Singh,BC NDP,3627,41.19,,4,7,45,68
+VFV,Vancouver-Fraserview,Francoise Raunet,BC Green Party,1189,13.5,,4,7,45,68
+VHA,Vancouver-Hastings,Niki Sharma,BC NDP,4132,52.02,yes,1,4,19,68
+VHA,Vancouver-Hastings,Phyllis Tang,Conservative Party,1846,23.24,,1,4,19,68
+VHA,Vancouver-Hastings,Kyra Philbert,BC Green Party,1641,20.66,,1,4,19,68
+VHA,Vancouver-Hastings,Christian Bosio,CentreBC,182,2.29,,1,4,19,68
+VHA,Vancouver-Hastings,Kimball Cariou,Communist Party of BC,72,0.91,,1,4,19,68
+VHA,Vancouver-Hastings,Phil Webb,Libertarian,70,0.88,,1,4,19,68
+VKE,Vancouver-Kensington,Mable Elmore,BC NDP,3195,46.39,yes,1,4,34,61
+VKE,Vancouver-Kensington,Aron Lageri,Conservative Party,2570,37.31,,1,4,34,61
+VKE,Vancouver-Kensington,Adam Hawk,BC Green Party,1123,16.3,,1,4,34,61
+VLA,Vancouver-Langara,Jaime Stein,Conservative Party,4084,51.72,yes,3,4,16,63
+VLA,Vancouver-Langara,Sunita Dhir,BC NDP,2925,37.04,,3,4,16,63
+VLA,Vancouver-Langara,John Atoyebi,BC Green Party,673,8.52,,3,4,16,63
+VLA,Vancouver-Langara,Alan Beesley,CentreBC,214,2.71,,3,4,16,63
+VLM,Vancouver-Little Mountain,Christine Boyle,BC NDP,1181,48.82,yes,0,4,16,71
+VLM,Vancouver-Little Mountain,Alex Muir,Conservative Party,804,33.24,,0,4,16,71
+VLM,Vancouver-Little Mountain,Sarah MacLeod,BC Green Party,434,17.94,,0,4,16,71
+VNP,Vancouver-Point Grey,David Eby,BC NDP,6151,42.48,yes,7,7,36,63
+VNP,Vancouver-Point Grey,Alex McMillan,Conservative Party,5942,41.04,,7,7,36,63
+VNP,Vancouver-Point Grey,Beatrice Sharpe,BC Green Party,1879,12.98,,7,7,36,63
+VNP,Vancouver-Point Grey,Michael Davis,CentreBC,507,3.5,,7,7,36,63
+VNQ,Vancouver-Quilchena,Carson Binda,Conservative Party,6445,56.56,yes,4,6,12,63
+VNQ,Vancouver-Quilchena,Callista Ryan,BC NDP,2894,25.4,,4,6,12,63
+VNQ,Vancouver-Quilchena,Douglas Courtemanche,BC Green Party,1017,8.93,,4,6,12,63
+VNQ,Vancouver-Quilchena,Petra Kuret,CentreBC,557,4.89,,4,6,12,63
+VNQ,Vancouver-Quilchena,Dallas Brodie,OneBC,481,4.22,,4,6,12,63
+VNR,Vancouver-Renfrew,Adrian Dix,BC NDP,1992,55.38,yes,0,5,38,65
+VNR,Vancouver-Renfrew,Tom Ikonomou,Conservative Party,1111,30.89,,0,5,38,65
+VNR,Vancouver-Renfrew,Rebecca Haber,BC Green Party,418,11.62,,0,5,38,65
+VNR,Vancouver-Renfrew,Lisa Prescott,CentreBC,76,2.11,,0,5,38,65
+VNS,Vancouver-South Granville,Lara Honrado,BC NDP,4383,47.13,yes,6,7,0,74
+VNS,Vancouver-South Granville,Lisa Phillips,Conservative Party,2894,31.12,,6,7,0,74
+VNS,Vancouver-South Granville,Maria J Cruz,BC Green Party,1612,17.33,,6,7,0,74
+VNS,Vancouver-South Granville,Colin Smith,CentreBC,328,3.53,,6,7,0,74
+VNS,Vancouver-South Granville,Salvatore Vetro,OneBC,83,0.89,,6,7,0,74
+VNT,Vancouver-Strathcona,Amanda Burrows,BC NDP,5436,55.86,yes,5,7,11,68
+VNT,Vancouver-Strathcona,Tanya Webking,BC Green Party,2835,29.13,,5,7,11,68
+VNT,Vancouver-Strathcona,Jordan Zheng McIntosh,Conservative Party,1355,13.92,,5,7,11,68
+VNT,Vancouver-Strathcona,Robert Crooks,Communist Party of BC,105,1.08,,5,7,11,68
+VNW,Vancouver-West End,Spencer Chandra Herbert,BC NDP,7472,53.58,yes,4,6,54,72
+VNW,Vancouver-West End,Dion Weisner,Conservative Party,3918,28.1,,4,6,54,72
+VNW,Vancouver-West End,Scott MacDonald,BC Green Party,2555,18.32,,4,6,54,72
+VNY,Vancouver-Yaletown,Terry Yung,BC NDP,894,43.59,yes,2,6,0,63
+VNY,Vancouver-Yaletown,Margareta Dovgal,Conservative Party,850,41.44,,2,6,0,63
+VNY,Vancouver-Yaletown,Priyan Samarakoone,BC Green Party,238,11.6,,2,6,0,63
+VNY,Vancouver-Yaletown,Sam Chandola,CentreBC,69,3.36,,2,6,0,63
+VRL,Vernon-Lumby,Kevin Acton,Conservative Party,7172,50.86,yes,4,7,28,76
+VRL,Vernon-Lumby,Harwinder Sandhu,BC NDP,5412,38.38,,4,7,28,76
+VRL,Vernon-Lumby,Blair Visscher,BC Green Party,917,6.5,,4,7,28,76
+VRL,Vernon-Lumby,Chantel Gibbs,OneBC,600,4.26,,4,7,28,76
+VTB,Victoria-Beacon Hill,Grace Lore,BC NDP,6765,46.57,yes,5,7,44,74
+VTB,Victoria-Beacon Hill,Rajinder S. Sahota,BC Green Party,5604,38.57,,5,7,44,74
+VTB,Victoria-Beacon Hill,Joachim Agou,Conservative Party,2159,14.86,,5,7,44,74
+VTS,Victoria-Swan Lake,Nina Krieger,BC NDP,5769,44.62,yes,5,6,22,67
+VTS,Victoria-Swan Lake,Carolyn Howe,BC Green Party,4327,33.47,,5,6,22,67
+VTS,Victoria-Swan Lake,Tim Taylor,Conservative Party,2833,21.91,,5,6,22,67
+WKP,West Kelowna-Peachland,Macklin McCall,Conservative Party,11491,63.24,yes,7,7,60,90
+WKP,West Kelowna-Peachland,George Morgan,BC NDP,5288,29.1,,7,7,60,90
+WKP,West Kelowna-Peachland,Adam Frank,BC Green Party,1391,7.66,,7,7,60,90
+WVC,West Vancouver-Capilano,Caroline Elliott,Conservative Party,11306,68.94,yes,5,6,33,72
+WVC,West Vancouver-Capilano,Honieh Barzegari,BC NDP,3153,19.23,,5,6,33,72
+WVC,West Vancouver-Capilano,Arwa Shurab,BC Green Party,1668,10.17,,5,6,33,72
+WVC,West Vancouver-Capilano,Naomi Chocyk,OneBC,273,1.66,,5,6,33,72
+WVS,West Vancouver-Sea to Sky,Jeremy Valeriote,BC Green Party,6825,45.77,yes,8,8,38,82
+WVS,West Vancouver-Sea to Sky,Ayla Dumais,Conservative Party,6018,40.35,,8,8,38,82
+WVS,West Vancouver-Sea to Sky,Michelle Livaja,BC NDP,1507,10.11,,8,8,38,82
+WVS,West Vancouver-Sea to Sky,Dan Wood,CentreBC,563,3.78,,8,8,38,82
